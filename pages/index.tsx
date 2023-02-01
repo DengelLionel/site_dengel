@@ -26,13 +26,13 @@ const[openMenu,setOpenMenu]=useState(false)
       openMenu={openMenu}
       colorHeader="bg-blue-700"
       logo={<Link href='/'><Image width={30} height={30} alt='image'  src={'next.svg'}/></Link>}
-      /> 
+      > 
         
-       {/*  <NavMobileTypeOne openMenu={openMenu}>
+     <NavMobileTypeOne openMenu={openMenu}>
           <Link className='text-white' href={"#"}>Contactos</Link>
           <Link className='text-white' href={"#"}>Contactos</Link>
         </NavMobileTypeOne>
-      </HeaderMobileTypeOne> */}
+      </HeaderMobileTypeOne> 
     
       <main className=''>
      <h2>hola</h2>
