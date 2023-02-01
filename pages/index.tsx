@@ -3,9 +3,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
-import {HeaderMobileTypeOne,NavMobileTypeOne} from "componentes-dengel"
+/* import {HeaderMobileTypeOne,NavMobileTypeOne} from "componentes-dengel" */
 import { useState } from 'react'
-import "componentes-dengel/dist/style.css"
+/* import "componentes-dengel/dist/style.css" */
 
 export default function Home() {
   const [openMenu,setOpenMenu]=useState<boolean>(false)
@@ -17,20 +17,20 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <HeaderMobileTypeOne 
+     {/*  <HeaderMobileTypeOne 
       setOpenMenu={()=>setOpenMenu(!openMenu)}
       openMenu={openMenu}
       colorHeader="bg-blue-700"
       logo={<Link href='/'><Image width={30} height={30} alt='image'  src={'next.svg'}/></Link>}
-      >
+      > */}
         
-        <NavMobileTypeOne openMenu={openMenu}>
+       {/*  <NavMobileTypeOne openMenu={openMenu}>
           <Link className='text-white' href={"#"}>Contactos</Link>
           <Link className='text-white' href={"#"}>Contactos</Link>
         </NavMobileTypeOne>
-      </HeaderMobileTypeOne>
-      <main className=''>
-      
+      </HeaderMobileTypeOne> */}
+      <main className='text-2xl font-extrabold text-blue-700'>
+      <h1>Hola soy Dengel</h1>
       </main>
     </>
   )
