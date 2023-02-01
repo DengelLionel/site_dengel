@@ -3,8 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
-
- import {HeaderMobileTypeOne,NavMobileTypeOne} from "componentes-dengel" 
+import {HeaderMobileTypeOne,NavMobileTypeOne} from "componentes-dengel" 
 import { useState } from 'react'
 import "componentes-dengel/dist/style.css" 
 

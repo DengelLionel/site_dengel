@@ -589,10 +589,10 @@ color-name@^1.1.4, color-name@~1.1.4:
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
-componentes-dengel@^1.3.6:
-  version "1.3.6"
-  resolved "https://registry.yarnpkg.com/componentes-dengel/-/componentes-dengel-1.3.6.tgz#8eee1770289c22d79250839d517bac48ca9401d3"
-  integrity sha512-ACuzUn0W8nOsMkKpS/FX4AeasJuuZh62XKpez1VTruz8scGQYIo3pvUB2JJdALmjRKLd8KJcHwJ1uN6gm/4WoQ==
+componentes-dengel@^1.3.19:
+  version "1.3.19"
+  resolved "https://registry.yarnpkg.com/componentes-dengel/-/componentes-dengel-1.3.19.tgz#c2410ad5b5f7e4ffed02c0b91bb5ab19be58fbd3"
+  integrity sha512-CIX0aOdnHHSd1SiqkTsSozbfjpBJGIpIccJ1/LAyF1YUYjFFZPhy6kwKFGcufuuW4WRhNT0N5kveC9s5Yekr8Q==
   dependencies:
     autoprefixer "^10.4.13"
     next "^13.1.1"
