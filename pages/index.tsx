@@ -20,12 +20,12 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <HeaderTwo logo={<Link href='/'><Image width={30} height={30} alt='image'  src={'next.svg'}/></Link>} LinksNavDesktop={<section><h2>mundial</h2></section>} colorHeader='bg-blue-800' openMenuDesktop={openMenuDesktop}  openMenu={openMenu} navDesktopLittle={<NavDesktopTypeTwo openMenuDesktop={openMenuDesktop}>
+      <HeaderTwo logo={<Link href='/'><Image width={30} height={30} alt='image'  src={'next.svg'}/></Link>} LinksNavDesktop={<section><h2>mundial</h2></section>} colorHeader='bg-primary' openMenuDesktop={openMenuDesktop}  openMenu={openMenu} navDesktopLittle={<NavDesktopTypeTwo colorNavLittleDesktop={"bg-sky-500"} openMenuDesktop={openMenuDesktop}>
       <Link className='text-white' href={"#"}>Contactos</Link>
           <Link className='text-white' href={"#"}>Contactos</Link>
   </NavDesktopTypeTwo>} setOpenMenu={()=>{setOpenMenu(!openMenu)}} setOpenMenuDesktop={()=>{setOpenMenuDesktop(!openMenuDesktop)}}>
     
-    <NavMobileTypeTwo openMenu={openMenu}>
+    <NavMobileTypeTwo colorNavMobile={"bg-red-500"} openMenu={openMenu}>
       <h2 className='text-white'>contactos</h2>
       <h2 className='text-white'>profile</h2>
       <h2 className='text-white'>contactos</h2>
