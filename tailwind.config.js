@@ -10,14 +10,25 @@ module.exports = {
       colors:{
         "buttoncolor":"#F5BB19",
         "primary":"#300F9A",
-        
+        "secundary":"#3918A4",
+        "textPrimary":"#BDC3FE",
+        "textPrimary2":"#BDC3FD",
+        "textHover":"#fafafa",
         "whiteTransparent":"rgba(255,255,255,.9)",
-        "gray1":"#8E8E8E"
-
+        "whiteTransparent2":"rgba(155, 164, 231, 0.5)",
+        "gray1":"#8E8E8E",
+        "whiteTransparent3":"rgba(15, 14, 71, 0.3)",
+        "yellow1":"#F5BB19",
+        "blue1":"#000814",
+        "secundary2":"#1F1E44",
+        "secundary3":"#212048"
+      },
+      boxShadow:{
+        "shadow1":" 0px 4px 4px rgba(1, 1, 55, 0.2) ",
       },
       fontFamily:{
-        "Poppins":["sans-serif"],
-        "Roboto":["sans-serif"],
+        "Rowdies":["Rowdies","sans-serif"],
+        "SegoeUI":["sans-serif"],
       },
       
     },
