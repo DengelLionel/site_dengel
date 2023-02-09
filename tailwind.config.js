@@ -21,7 +21,8 @@ module.exports = {
         "yellow1":"#F5BB19",
         "blue1":"#000814",
         "secundary2":"#1F1E44",
-        "secundary3":"#212048"
+        "secundary3":"#212048",
+        "white2":"#E6E6E6"
       },
       boxShadow:{
         "shadow1":" 0px 4px 4px rgba(1, 1, 55, 0.2) ",
