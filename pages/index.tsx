@@ -58,14 +58,11 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
     
       <main className='bg-gradient-to-t from-secundary2 via-secundary3 to-secundary3 ' >
    
-   {/*   <section className='bg-gradient-to-t from-primary via-secundary to-secundary h-auto rounded-bl-[36px] rounded-br-[90px] overflow-hidden xl:h-[586px] '>
-      <h2 className={styles.textPresent}>Creo apps efectivas con diseño y codificación de calidad</h2>
-     </section> */}
      <section className={styles.fondo}>
      <h2 className={styles.textPresent}>Creo apps efectivas con diseño y codificación de calidad</h2>
    
      <article className={styles.seccion}>
-      <p className=' lg:w-[560px] xl:p-[100px]  xl:w-[650px]'>Te ayudo a alcanzar tus objetivos de manera rápida y eficiente con nuestros servicios efectivos</p>
+      <p className=' lg:w-[560px]'>Maximiza tus resultados conmigo.</p>
      </article>
    
      <article className='hidden lg:flex lg:absolute lg:left-[410px]  lg:top-[170px] xl:absolute xl:left-[630px] xl:top-[210px]'>

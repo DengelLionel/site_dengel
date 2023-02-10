@@ -4,6 +4,7 @@
   font-size: 36px;
   font-family: 'Rowdies', sans-serif;
   font-weight: 500;
+  text-align: center;
   color: #BDC3FD;
   padding: 16px;
   line-height: 45px;
@@ -20,7 +21,7 @@ margin-bottom: 12px;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 10px;
-  width: 100%;
+  width: 200px;
 }
 .linkNavLittleDesktop{
   color: #fafafa;
@@ -32,18 +33,21 @@ margin-bottom: 12px;
 .fondo{
   background: linear-gradient(180deg, #300F9A 0%, #3918A4 95.7%);
   border-radius: 0 0 100px 100px ;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .seccion{
-  background: linear-gradient(180deg, rgba(50, 17, 157, 0.38) -5.68%, rgba(153, 149, 229, 0.838142) 34.83%, #BDC3FE 47.72%, rgba(166, 166, 238, 0.87582) 60.61%, rgba(54, 21, 161, 0.26) 112.17%);
+
   padding: 16px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 35px;
   letter-spacing: 0.015em;
-  color: #000814;
+  color: #BDC3FE;
 }
 .misServicios{
   font-family: 'Rowdies';
@@ -61,6 +65,7 @@ color: #E6E6E6;
     font-size: 40px;
     font-family: 'Rowdies', sans-serif;
     font-weight: 500;
+    text-align: center;
     color: #BDC3FD;
     width: 500px;
     padding: 16px;
@@ -68,7 +73,13 @@ color: #E6E6E6;
   letter-spacing: 0.015em;
   margin-bottom: 12px;
   }
- 
+ .fondo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  
+ }
   .seccion{
    
     font-family: 'Roboto', sans-serif;
@@ -77,10 +88,11 @@ color: #E6E6E6;
     padding: 16px;
     line-height: 35px;
     letter-spacing: 0.015em;
-    color: #000814;
+    color: #BDC3FE;
   }
   .button{
     font-size: 26px;
+    width: 292px;
   }
 }
 
@@ -106,7 +118,7 @@ color: #E6E6E6;
     line-height: 50px;
     padding: 20px;
     letter-spacing: 0.015em;
-    color: #000814;
+    color: #BDC3FE;
   }
   .button{
     font-size: 32px;
@@ -125,10 +137,10 @@ color: #E6E6E6;
     line-height: 60px;
   letter-spacing: 0.015em;
   margin-bottom: 12px;
-
+  text-align: start;
   }
   .button{
-    width:38%;
+    width:280px;
     font-size: 26px;
   }
   .seccion{
@@ -141,10 +153,15 @@ color: #E6E6E6;
     font-size: 32px;
     line-height: 40px;
     letter-spacing: 0.015em;
-    color: #000814;
+    color: #BDC3FE;
   }
   .fondo{
     padding-bottom:32px;
+    height:600px ;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: start;
   }
 
 }
@@ -159,10 +176,10 @@ color: #E6E6E6;
     padding: 32px;
     line-height: 60px;
   letter-spacing: 0.015em;
-  margin-bottom: 12px;
+  
   }
   .button{
-    width:38%;
+    width:300px;
     font-size: 32px;
   }
   .seccion{
@@ -174,8 +191,10 @@ color: #E6E6E6;
     font-size: 32px;
     line-height: 40px;
     letter-spacing: 0.015em;
-    color: #000814;
-    padding: 32px;
+    color: #BDC3FE;
+    margin-left: 32px;
+    margin-bottom: 32px;
   }
+
 
 }
