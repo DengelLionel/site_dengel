@@ -33,7 +33,14 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
       
       </Head>
     
-      <HeaderTwo 
+      <HeaderTwo navMobileContent={<NavMobileTypeTwo colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
+    <LinkNav Icon={ <IconHome/>} text={" Mi punto de partida"} href={"#"}/>
+        <LinkNav Icon={ <IconModule/>} text={" Mis servicios integrales"} href={"#"}/>
+        <LinkNav Icon={ <IconJob/>} text={" Mi repositorio de proyectos"} href={"#"}/>
+        <LinkNav Icon={ <IconBrochure/>} text={"Mi brochure"} href={"#"}/>
+        <LinkNav Icon={ <IconBlog/>} text={"Mi brog"} href={"#"}/>
+        <LinkNav Icon={ <IconPlantilla/>} text={"Mis plantillas web premium"} href={"#"}/>
+    </NavMobileTypeTwo>} 
       posicion="lg:justify-center" logo={<Link href='/'><Image width={30} height={30} alt='image'  src={'next.svg'}/></Link>} LinksNavDesktop={<NavDesktop/>} colorHeader='bg-gradient-to-t from-primary via-secundary to-secundary ' openMenuDesktop={openMenuDesktop}  openMenu={openMenu} 
       
       navDesktopLittle={<NavDesktopTypeTwo colorNavLittleDesktop={"bg-whiteTransparent3 backdrop-blur"} openMenuDesktop={openMenuDesktop}>
@@ -42,19 +49,12 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
       <LinkNavLittleDesktop href="#" Icon={<IconPlantilla/>} text="Mis plantillas web premium"/>
   </NavDesktopTypeTwo>} 
   setOpenMenu={()=>{setOpenMenu(!openMenu)}} 
-  setOpenMenuDesktop={()=>{setOpenMenuDesktop(!openMenuDesktop)}}>
+  setOpenMenuDesktop={()=>{setOpenMenuDesktop(!openMenuDesktop)}}/>
     
-    <NavMobileTypeTwo colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
-    <LinkNav Icon={ <IconHome/>} text={" Mi punto de partida"} href={"#"}/>
-        <LinkNav Icon={ <IconModule/>} text={" Mis servicios integrales"} href={"#"}/>
-        <LinkNav Icon={ <IconJob/>} text={" Mi repositorio de proyectos"} href={"#"}/>
-        <LinkNav Icon={ <IconBrochure/>} text={"Mi brochure"} href={"#"}/>
-        <LinkNav Icon={ <IconBlog/>} text={"Mi brog"} href={"#"}/>
-        <LinkNav Icon={ <IconPlantilla/>} text={"Mis plantillas web premium"} href={"#"}/>
-    </NavMobileTypeTwo>
+    
 
     
-    </HeaderTwo>
+    
     
       <main className='bg-gradient-to-t from-secundary2 via-secundary3 to-secundary3 ' >
    
