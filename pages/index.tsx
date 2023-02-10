@@ -63,16 +63,17 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
      </section> */}
      <section className={styles.fondo}>
      <h2 className={styles.textPresent}>Creo apps efectivas con diseño y codificación de calidad</h2>
+   
      <article className={styles.seccion}>
-      <p className='pt-[55px] pb-[80px] pr-[16px] pl-[16px] sm:pt-[80px] sm:pb-[80px] sm:pr-[30px] sm:pl-[30px] md:pl-[45px] md:pr-[35px]  lg:w-[600px] xl:pt-[55px] xl:w-[685px]'>Te ayudo a alcanzar tus objetivos de manera rápida y eficiente con nuestros servicios efectivos</p>
+      <p className=' lg:w-[560px] xl:p-[100px]  xl:w-[650px]'>Te ayudo a alcanzar tus objetivos de manera rápida y eficiente con nuestros servicios efectivos</p>
      </article>
-
-     <article className='hidden lg:flex lg:absolute lg:left-[410px] lg:top-[190px] xl:absolute xl:left-[630px] xl:top-[210px]'>
+   
+     <article className='hidden lg:flex lg:absolute lg:left-[410px]  lg:top-[170px] xl:absolute xl:left-[630px] xl:top-[210px]'>
      <SitioWeb1024mas/>
      </article>
 
-     <article className='p-[16px] mt-[21px] mb-[21px] xl:mt-0 xl:relative xl:-top-[40px]'>
-     <button className='bg-yellow1 font-Roboto font-extrabold text-[16px] text-center w-[328px] text-blue1 pt-[10px] pb-[10px] rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl rounded-br-2xl sm:w-full sm:text-[24px] md:text-[24px] lg:w-[500px] lg:mb-[30px]'>Conoce más</button>
+     <article className='p-[16px] mt-[21px] mb-[21px] lg:ml-[20px] xl:ml-[32px] xl:mt-0 xl:relative xl:-top-[5%]'>
+     <button className={styles.button}>Conoce más</button>
      </article>
 
      <article className='pl-[16px] pr-[16px] pb-[50px] sm:flex sm:justify-center  md:pb-[80px] lg:hidden'>

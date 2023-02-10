@@ -10,6 +10,18 @@
 letter-spacing: 0.015em;
 margin-bottom: 12px;
 }
+.button{
+  font-family: "Roboto",sans-serif;
+  font-weight: bolder;
+  font-size: 24px;
+  text-align: center;
+  background-color: #F5BB19;
+  color:#000814 ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
 .linkNavLittleDesktop{
   color: #fafafa;
   display: flex;
@@ -18,18 +30,18 @@ margin-bottom: 12px;
 
 }
 .fondo{
-  background-image: url(/img/fondo.svg);
-  background-repeat: no-repeat;
-  background-size:cover;
+  background: linear-gradient(180deg, #300F9A 0%, #3918A4 95.7%);
+  border-radius: 0 0 100px 100px ;
+  
 }
+
 .seccion{
-  background-image: url(/img/seccion.svg);
-  background-repeat: no-repeat;
-  background-size:cover;
+  background: linear-gradient(180deg, rgba(50, 17, 157, 0.38) -5.68%, rgba(153, 149, 229, 0.838142) 34.83%, #BDC3FE 47.72%, rgba(166, 166, 238, 0.87582) 60.61%, rgba(54, 21, 161, 0.26) 112.17%);
+  padding: 16px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 35px;
   letter-spacing: 0.015em;
   color: #000814;
 }
@@ -56,16 +68,19 @@ color: #E6E6E6;
   letter-spacing: 0.015em;
   margin-bottom: 12px;
   }
+ 
   .seccion{
-    background-image: url(/img/seccion640.svg);
-    background-repeat: no-repeat;
-    background-size:cover;
+   
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 26px;
-    line-height: 28px;
+    padding: 16px;
+    line-height: 35px;
     letter-spacing: 0.015em;
     color: #000814;
+  }
+  .button{
+    font-size: 26px;
   }
 }
 
@@ -76,29 +91,27 @@ color: #E6E6E6;
     font-weight: 500;
     color: #BDC3FD;
     width: 610px;
-    padding: 16px;
+    padding: 20px;
     line-height: 60px;
   letter-spacing: 0.015em;
   margin-bottom: 12px;
   }
   .seccion{
-    background-image: url(/img/seccion768.svg);
-    background-repeat: no-repeat;
-    background-size:cover;
+  
     font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
     font-weight: 500;
     font-size: 32px;
-    line-height: 40px;
+    line-height: 50px;
+    padding: 20px;
     letter-spacing: 0.015em;
     color: #000814;
   }
-  .fondo{
-    background-image: url(/img/fondo768.svg);
-    background-repeat: no-repeat;
-    background-size:cover;
+  .button{
+    font-size: 32px;
   }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -108,17 +121,21 @@ color: #E6E6E6;
     font-weight: 500;
     color: #BDC3FD;
     width: 610px;
-    padding: 16px;
+   margin-left: 20px;
     line-height: 60px;
   letter-spacing: 0.015em;
   margin-bottom: 12px;
+
+  }
+  .button{
+    width:38%;
+    font-size: 26px;
   }
   .seccion{
-    background-image: url(/img/seccion1024.svg);
-    background-repeat: no-repeat;
-    background-size:cover;
+  
     font-family: 'Roboto', sans-serif;
     display: flex;
+    padding: 20px;
     align-items: center;
     font-weight: 500;
     font-size: 32px;
@@ -127,10 +144,9 @@ color: #E6E6E6;
     color: #000814;
   }
   .fondo{
-    background-image: url(/img/fondo1024.svg);
-    background-repeat: no-repeat;
-    background-size:cover;
+    padding-bottom:32px;
   }
+
 }
 
 @media screen and (min-width: 1280px) {
@@ -145,10 +161,12 @@ color: #E6E6E6;
   letter-spacing: 0.015em;
   margin-bottom: 12px;
   }
+  .button{
+    width:38%;
+    font-size: 32px;
+  }
   .seccion{
-    background-image: url(/img/seccion1280.svg);
-    background-repeat: no-repeat;
-    background-size:cover;
+  
     font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
@@ -157,10 +175,7 @@ color: #E6E6E6;
     line-height: 40px;
     letter-spacing: 0.015em;
     color: #000814;
+    padding: 32px;
   }
-  .fondo{
-    background-image: url(/img/fondo1280.svg);
-    background-repeat: no-repeat;
-    background-size:cover;
-  }
+
 }
