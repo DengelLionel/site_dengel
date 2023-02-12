@@ -20,6 +20,8 @@ module.exports = {
         "whiteTransparent3":"rgba(15, 14, 71, 0.3)",
         "yellow1":"#F5BB19",
         "blue1":"#000814",
+        "blue2":"#0F0E47",
+        "border1":"#5B59D3",
         "secundary2":"#1F1E44",
         "secundary3":"#212048",
         "white2":"#E6E6E6"

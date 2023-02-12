@@ -18,6 +18,9 @@ import LinkNavLittleDesktop from "../components/LinkNavLittleDesktop"
 import SitiosWeb from '../components/SitiosWeb'
 import SitioWeb1024mas from '../components/SitioWeb1024mas'
 import MisServicios from '../components/MisServicios'
+import LoQueYoOfrezco from '../components/LoQueYoOfrezco'
+import PorqueTrabajarConmigo from '../components/PorqueTrabajarConmigo'
+import HechaVistasoProyectos from '../components/HechaVistasoProyectos'
 export default function Home() {
 
 const[openMenu,setOpenMenu]=useState(false)
@@ -80,7 +83,9 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
      </section>
 
      <MisServicios/>
-     
+     <LoQueYoOfrezco/>
+     <PorqueTrabajarConmigo/>
+     <HechaVistasoProyectos/>
       </main>
     </div>
   )

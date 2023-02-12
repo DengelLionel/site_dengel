@@ -1,0 +1,30 @@
+@import url('https://fonts.cdnfonts.com/css/rowdies');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+.ofrezco{
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  
+  color: #E6E6E6;
+}
+.button{
+  background: #E6E6E6;
+border-radius: 7px;
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.015em;
+color: #201F46;
+padding-left: 31px;
+padding-right: 31px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
