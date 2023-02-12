@@ -50,7 +50,7 @@ margin-bottom: 12px;
   color: #BDC3FE;
 }
 .misServicios{
-  font-family: 'Rowdies';
+  font-family: 'Rowdies', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 32px;
@@ -61,7 +61,7 @@ color: #E6E6E6;
 
 }
 .LoQueYoOfrezco{
-  font-family: 'Rowdies';
+  font-family: 'Rowdies', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -173,8 +173,9 @@ align-items: center;
     height:600px ;
     display: flex;
     flex-direction: column;
-    justify-content:start;
-    align-items: start;
+    justify-content:flex-start;
+    align-items:flex-start;
+    
   }
 
 }
