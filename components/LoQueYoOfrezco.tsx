@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from "../styles/Home.module.css"
-import Card from './Card'
 import Carousel from './Carousel';
+import Titulo from './Titulo'
+import ContainerGeneral from './ContainerGeneral';
 const cards = [
     {
         img: 'https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2017/12/how-to-make-a-website-1.png',
@@ -31,11 +32,11 @@ const cards = [
   ];
 const LoQueYoOfrezco = () => {
   return (
-    <section className=''>
-        <h2 className={styles.LoQueYoOfrezco}>Lo que yo ofrezco </h2>
+    <ContainerGeneral>
+       <Titulo titulo='Lo que yo ofrezco'/>
         <Carousel cards={cards}/>
 
-    </section>
+    </ContainerGeneral>
   )
 }
 

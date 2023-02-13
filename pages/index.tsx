@@ -21,6 +21,9 @@ import MisServicios from '../components/MisServicios'
 import LoQueYoOfrezco from '../components/LoQueYoOfrezco'
 import PorqueTrabajarConmigo from '../components/PorqueTrabajarConmigo'
 import HechaVistasoProyectos from '../components/HechaVistasoProyectos'
+import PlantillasWeb from '../components/PlantillasWeb'
+import Formulario from '../components/Formulario'
+import FooterContent from '../components/FooterContent'
 export default function Home() {
 
 const[openMenu,setOpenMenu]=useState(false)
@@ -87,7 +90,12 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
      <LoQueYoOfrezco/>
      <PorqueTrabajarConmigo/>
      <HechaVistasoProyectos/>
+     <PlantillasWeb/>
+     <Formulario/>
       </main>
+      <footer className='bg-azul2 w-full h-auto p-[16px]'>
+      <FooterContent/>
+      </footer>
     </div>
   )
 }

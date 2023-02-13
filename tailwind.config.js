@@ -9,6 +9,7 @@ module.exports = {
       
       colors:{
         "buttoncolor":"#F5BB19",
+        "yellow2":"#F5BB19",
         "primary":"#300F9A",
         "secundary":"#3918A4",
         "textPrimary":"#BDC3FE",
@@ -24,7 +25,11 @@ module.exports = {
         "border1":"#5B59D3",
         "secundary2":"#1F1E44",
         "secundary3":"#212048",
-        "white2":"#E6E6E6"
+        "white2":"#E6E6E6",
+        "azulpalido":"#878BB1",
+        "black2":"#2F2E4D",
+        "azul2":"#1E1357",
+        "white3":"#ABA7C0"
       },
       boxShadow:{
         "shadow1":" 0px 4px 4px rgba(1, 1, 55, 0.2) ",

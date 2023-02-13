@@ -1,20 +1,38 @@
-import React, { useState,useEffect } from 'react';
-import Image from 'next/image';
-import carousel from "../styles/Carousel.module.css"
-const Card = ({img, title, description,className}:any) => {
- 
-
+import React from 'react'
+import Image from 'next/image'
+import styles from "../styles/CardServicios.module.css"
+import IconStar from './Icons/IconStar'
+interface cards{
+  image:string,
+  titulo:string,
+}
+const Card = ({image,titulo}:cards) => {
   return (
-    <div className={className}>
+    <div>
+    <section className={styles.card}>
+      <article className={styles.content1}>
+      <Image  src={image} width={169} height={147} alt={titulo}/>
+      </article>
+      <article className={styles.content2}>
+        <h3>{titulo}</h3>
+      </article>
+    </section >
 
-      
-        <Image width={100} height={150} src={img} alt={title} />
-        <h3>{title}</h3>
-        <p>{description}</p>
-      
+    <section className={styles.card1024}>
+      <article className={styles.content}>
+      <Image  src={image} width={169} height={147} alt={titulo}/>
+        <h3 className={styles.text}>{titulo}</h3>
+        <article className={styles.IconStart}>
+        <IconStar/>
+        </article>
+       
+      </article>
      
-    </div>
-  );
-};
+    </section >
 
-export default Card;
+    </div>
+   
+  )
+}
+
+export default Card

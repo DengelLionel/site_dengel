@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState,useEffect,useRef } from 'react';
-import Card from './Card';
 import carousel from "../styles/Carousel.module.css"
 import Image from 'next/image';
 
@@ -30,7 +29,7 @@ const Carousel = ({cards}:any) => {
     <div ref={carouselRef} className="scrollx" onTouchMove={handleTouchMove}>
       {cards.map((card:any,index:any)=>(
          <div key={index}
-         className={`transition-transform gap-[10px] duration-300 ${card.color} rounded-br-[20px] rounded-bl-[20px] rounded-tr-[20px] flex items-center flex-col p-[20px] rounded-tl-[20px] w-[200px] h-[330px] ease-out transform translate-x-${
+         className={`transition-transform gap-[20px] duration-300 ${card.color} rounded-br-[20px] rounded-bl-[20px] rounded-tr-[20px] flex items-center flex-col p-[20px] rounded-tl-[20px] w-[200px] h-[330px] lg:w-[279px] lg:h-[394px] lg:flex lg:flex-col lg:gap-[20px]  ease-out transform translate-x-${
            activeIndex === index ? 0 : activeIndex < index ? "100" : "-100"
          }`}
        >
