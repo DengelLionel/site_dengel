@@ -1,4 +1,3 @@
-import React from 'react'
 
 const SitioWeb1024mas = (props:any) => {
   return (

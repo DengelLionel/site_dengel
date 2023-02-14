@@ -1,4 +1,3 @@
-import React from 'react'
 import Titulo from './Titulo'
 import ContainerGeneral from './ContainerGeneral'
 import service from "../styles/CardServicios.module.css"

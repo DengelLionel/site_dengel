@@ -1,5 +1,3 @@
-import React from 'react'
-import styles from "../styles/Home.module.css"
 import Carousel from './Carousel';
 import Titulo from './Titulo'
 import ContainerGeneral from './ContainerGeneral';

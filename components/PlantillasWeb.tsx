@@ -1,4 +1,3 @@
-import React from 'react'
 import ContainerGeneral from './ContainerGeneral'
 import Titulo from './Titulo'
 import ImagenAccion from './ImagenAccion'

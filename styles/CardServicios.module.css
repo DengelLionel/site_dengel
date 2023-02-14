@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Rowdies:wght@300;400;700&display=swap');
 .card{
     width: 328px;
     height: 187px;
@@ -33,7 +33,7 @@ border-radius: 20px 0px 0px 20px;
     width: 177px;
     height: 175px;
     color: #E6E6E6;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
@@ -148,7 +148,7 @@ align-items: center;
     }
     .text{
         width: 257px;
-        font-family: 'Segoe UI', sans-serif;
+        font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
@@ -158,10 +158,7 @@ letter-spacing: 0.01em;
 
 color: #E6E6E6;
     }
-    .IconStart{
- 
 
-    }
     .container{
         width: 100%;
         display: flex;

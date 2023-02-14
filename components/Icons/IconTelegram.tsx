@@ -1,5 +1,3 @@
-import React from 'react'
-
 const IconTelegram = (props:any) => {
   return (
     <svg

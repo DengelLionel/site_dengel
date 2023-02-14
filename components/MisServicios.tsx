@@ -1,5 +1,3 @@
-import React from 'react'
-import styles from "../styles/Home.module.css"
 import Card from './Card'
 import service from "../styles/CardServicios.module.css"
 import Titulo from './Titulo'

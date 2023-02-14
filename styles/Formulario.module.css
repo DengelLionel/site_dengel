@@ -22,7 +22,7 @@
     color: #E6E6E6;
 }
 .label{
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
 font-weight: 300;
 font-size: 20px;
@@ -35,7 +35,7 @@ color: #BFBBD6;
 .input{
     line-height: none;
     font-style: normal;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 letter-spacing: 0.015em;
@@ -63,7 +63,7 @@ resize: none;
 height: 160px;
 line-height: none;
 font-style: normal;
-font-family: 'Segoe UI', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 }
@@ -72,7 +72,7 @@ font-size: 16px;
     border: 2px solid #878BB1;
 }
 .button{
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-top: 32px;
     font-weight:800;
     font-size: 16px;

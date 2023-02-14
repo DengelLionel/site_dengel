@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import {HeaderTwo,NavDesktopTypeTwo,NavMobileTypeTwo} from "componentes-dengel" 
 import { useState } from 'react'
@@ -37,8 +36,8 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet"/>
-<link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet"/>
+
+
       </Head>
       <header className={styles.header}>
       <HeaderTwo navMobileContent={<NavMobileTypeTwo colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>

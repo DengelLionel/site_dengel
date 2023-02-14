@@ -1,5 +1,3 @@
-import React from 'react'
-
 const IconJob = (props:any) => {
   return (
     <svg

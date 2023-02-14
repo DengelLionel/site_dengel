@@ -1,5 +1,3 @@
-import React from 'react'
-
 const IconWhatsapp = (props:any) => {
   return (
     <svg

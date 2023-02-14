@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image'
 import styles from "../styles/CardServicios.module.css"
 import IconStar from './Icons/IconStar'

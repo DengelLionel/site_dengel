@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Rowdies:wght@300;400;700&display=swap');
-@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+
 .header{
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .textPresent{
   font-size: 36px;
@@ -15,7 +15,7 @@ letter-spacing: 0.015em;
 margin-bottom: 12px;
 }
 .button{
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bolder;
   font-size: 24px;
   text-align: center;
@@ -45,7 +45,7 @@ margin-bottom: 12px;
 .seccion{
 
   padding: 16px;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   font-weight: 500;
   font-size: 24px;
@@ -105,7 +105,7 @@ align-items: center;
  }
   .seccion{
    
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 26px;
     padding: 16px;
@@ -167,7 +167,7 @@ align-items: center;
   }
   .seccion{
   
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
     font-weight: 500;
@@ -229,7 +229,7 @@ align-items: center;
   }
   .seccion{
   
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     padding: 20px;
     align-items: center;
@@ -269,7 +269,7 @@ align-items: center;
   }
   .seccion{
   
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
     font-weight: 500;

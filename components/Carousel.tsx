@@ -1,4 +1,3 @@
-import React from 'react'
 import { useState,useEffect,useRef } from 'react';
 import carousel from "../styles/Carousel.module.css"
 import Image from 'next/image';

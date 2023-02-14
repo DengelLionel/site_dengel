@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import {useState} from 'react'
 import styles from '../styles/Preguntas.module.css'
 import Titulo from './Titulo'
 import ContainerGeneral from './ContainerGeneral'

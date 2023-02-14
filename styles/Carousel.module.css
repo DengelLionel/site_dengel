@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Rowdies:wght@300;400;700&display=swap');
-@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+
 .ofrezco{
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -14,7 +14,7 @@
 .button{
   background: #E6E6E6;
 border-radius: 7px;
-font-family: 'Segoe UI', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 16px;
@@ -30,7 +30,7 @@ padding-bottom: 15px;
 
 @media screen and (min-width: 1024px) {
   .ofrezco{
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 26px;

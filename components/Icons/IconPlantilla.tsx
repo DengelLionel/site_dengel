@@ -1,5 +1,3 @@
-import React from 'react'
-
 const IconPlantilla = (props:any) => {
   return (
     <svg

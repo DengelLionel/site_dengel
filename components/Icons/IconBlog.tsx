@@ -1,5 +1,3 @@
-import React from 'react'
-
 const IconBlog = (props:any) => {
   return (
     <svg

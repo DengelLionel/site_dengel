@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import accion from '../styles/Imagenaccion.module.css'

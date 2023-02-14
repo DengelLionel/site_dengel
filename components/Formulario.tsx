@@ -1,4 +1,3 @@
-import React from 'react'
 import ContainerGeneral from './ContainerGeneral'
 import formulario from "../styles/Formulario.module.css"
 const Formulario = () => {
