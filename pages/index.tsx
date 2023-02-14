@@ -23,6 +23,7 @@ import HechaVistasoProyectos from '../components/HechaVistasoProyectos'
 import PlantillasWeb from '../components/PlantillasWeb'
 import Formulario from '../components/Formulario'
 import FooterContent from '../components/FooterContent'
+import IconLogo from '../components/Icons/IconLogo'
 export default function Home() {
 
 const[openMenu,setOpenMenu]=useState(false)
@@ -34,7 +35,7 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
         <title>Mi punto de partida</title>
         <meta name="description" content="Dengel Rivera dev - Mi punto de partida " />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logodev.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
 
 
@@ -48,7 +49,7 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
         <LinkNav Icon={ <IconBlog/>} text={"Mi brog"} href={"#"}/>
         <LinkNav Icon={ <IconPlantilla/>} text={"Mis plantillas web premium"} href={"#"}/>
     </NavMobileTypeTwo>} 
-      posicion="lg:justify-center" logo={<Link href='/'><Image width={30} height={30} alt='image'  src={'next.svg'}/></Link>} LinksNavDesktop={<NavDesktop/>} colorHeader='bg-primary ' openMenuDesktop={openMenuDesktop}  openMenu={openMenu} 
+      logo={<Link href='/'><IconLogo/></Link>} LinksNavDesktop={<NavDesktop/>} colorHeader='bg-primary ' openMenuDesktop={openMenuDesktop}  openMenu={openMenu} 
       
       navDesktopLittle={<NavDesktopTypeTwo colorNavLittleDesktop={"bg-whiteTransparent3 backdrop-blur"} openMenuDesktop={openMenuDesktop}>
       <LinkNavLittleDesktop href="#" Icon={<IconBrochure/>} text="Mi brochure"/>
