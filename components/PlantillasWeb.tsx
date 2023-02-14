@@ -6,7 +6,7 @@ const PlantillasWeb = () => {
     <ContainerGeneral>
         <Titulo titulo='Mi excelencia en diseño de plantillas'/>
       
-        <ImagenAccion image={'https://d1ih8jugeo2m5m.cloudfront.net/2022/04/tipos-de-paginas-web-1200x685.jpg'} tituloButton='Conoce más'/>
+        <ImagenAccion image={'https://res.cloudinary.com/darps1cta/image/upload/v1676390679/sitioweb/port_zpstv9.jpg'} tituloButton='Conoce más'/>
     </ContainerGeneral>
   )
 }

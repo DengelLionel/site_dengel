@@ -7,8 +7,8 @@ const MisServicios = () => {
    <ContainerGeneral>
     <Titulo titulo="Mis servicios más Solicitados"/>
     <section className={service.container}>
-    <Card titulo='Creo páginas informativas de calidad' image='https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2017/12/how-to-make-a-website-1.png'/>
-    <Card titulo='Creo páginas informativas de calidad' image='https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2017/12/how-to-make-a-website-1.png'/>
+    <Card titulo='Creo páginas informativas de calidad' image='https://res.cloudinary.com/darps1cta/image/upload/v1676390679/sitioweb/port_zpstv9.jpg'/>
+    <Card titulo='Creo páginas informativas de calidad' image='https://res.cloudinary.com/darps1cta/image/upload/v1676390679/sitioweb/port_zpstv9.jpg'/>
     </section>
    </ContainerGeneral>
   )

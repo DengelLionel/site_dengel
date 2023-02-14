@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Rowdies:wght@300;400;700&display=swap');
 
 .header{
   font-family: 'Roboto', sans-serif;
@@ -58,7 +59,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 32px;
 line-height: 40px;
-letter-spacing: 0.01em;
+letter-spacing: 0.015em;
 padding: 16px;
 color: #E6E6E6;
 
@@ -69,7 +70,7 @@ color: #E6E6E6;
   font-weight: 400;
   font-size: 32px;
   line-height: 40px;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.015em;
   padding-left: 16px;
   padding-top: 16px;
   padding-right:16px;
@@ -79,146 +80,72 @@ color: #E6E6E6;
 @media screen and (min-width: 640px) {
   .textPresent{
     font-size: 40px;
-    font-family: 'Rowdies', cursive;
-    font-weight: 500;
-    text-align: center;
-    color: #BDC3FD;
     width: 500px;
-    padding: 16px;
-    line-height: 45px;
-  letter-spacing: 0.015em;
-  margin-bottom: 12px;
   }
   .LoQueYoOfrezco{
 
-    font-size: 32px;
     width: 300px;
     text-align: center;
   }
- .fondo{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-  
- }
+
   .seccion{
-   
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
     font-size: 26px;
-    padding: 16px;
-    line-height: 35px;
-    letter-spacing: 0.015em;
-    color: #BDC3FE;
   }
   .button{
     font-size: 26px;
     width: 292px;
   }
   .titulo{
-    font-family: 'Rowdies', cursive;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 40px;
-  letter-spacing: 0.01em;
   width: 418px;
   text-align: center;
-  padding: 16px;
-  color: #E6E6E6;
-  
   }
 }
 
 @media screen and (min-width: 768px) {
   .textPresent{
     font-size: 48px;
-    font-family: 'Rowdies', cursive;
-    font-weight: 500;
-    color: #BDC3FD;
     width: 610px;
     padding: 20px;
     line-height: 60px;
-  letter-spacing: 0.015em;
-  margin-bottom: 12px;
   }
   .LoQueYoOfrezco{
    
     font-size: 48px;
     line-height: 48px;
-    letter-spacing: 0.01em;
     text-align: center;
     width: 321px;
-    color: #E6E6E6;
   }
   .titulo{
-    font-family: 'Rowdies', cursive;
-  font-style: normal;
-  font-weight: 400;
   font-size: 48px;
   width: 600px;
   line-height: 50px;
-  letter-spacing: 0.01em;
-  padding: 16px;
-  color: #E6E6E6;
-  
   }
   .seccion{
-  
-    font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
-    font-weight: 500;
     font-size: 32px;
     line-height: 50px;
     padding: 20px;
-    letter-spacing: 0.015em;
-    color: #BDC3FE;
-  }
-  .button{
-    font-size: 32px;
   }
 
 }
 
 @media screen and (min-width: 1024px) {
   .textPresent{
-    font-size: 48px;
-    font-family: 'Rowdies', cursive;
-    font-weight: 500;
-    color: #BDC3FD;
-    width: 610px;
    margin-left: 20px;
-    line-height: 60px;
-  letter-spacing: 0.015em;
   margin-bottom: 12px;
   text-align: start;
   }
   .LoQueYoOfrezco{
-   
     font-size: 50px;
-    line-height: 48px;
-    letter-spacing: 0.01em;
-    text-align: center;
-    width: 321px;
-    color: #E6E6E6;
   }
   .titulo{
-    font-family: 'Rowdies', cursive;
-  font-style: normal;
-  font-weight: 400;
   font-size: 50px;
   width: 800px;
   line-height: 48px;
-  letter-spacing: 0.01em;
-  padding: 16px;
-  color: #E6E6E6;
-  
   }
   .button{
     width:280px;
-    font-size: 26px;
     transition: all;
     transition-duration: 500ms;
   }
@@ -227,16 +154,8 @@ align-items: center;
     color:#3B3A5F;
   }
   .seccion{
-  
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    padding: 20px;
     align-items: center;
-    font-weight: 500;
-    font-size: 32px;
     line-height: 40px;
-    letter-spacing: 0.015em;
-    color: #BDC3FE;
   }
   .fondo{
     padding-bottom:32px;
@@ -253,29 +172,15 @@ align-items: center;
 @media screen and (min-width: 1280px) {
   .textPresent{
     font-size: 55px;
-    font-family: 'Rowdies', cursive;
-    font-weight: 500;
-    color: #BDC3FD;
     width: 710px;
     padding: 32px;
     line-height: 60px;
-  letter-spacing: 0.015em;
   
   }
   .button{
     width:300px;
-    font-size: 26px;
   }
   .seccion{
-  
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    align-items: center;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: 0.015em;
-    color: #BDC3FE;
     margin-left: 32px;
     margin-bottom: 32px;
   }

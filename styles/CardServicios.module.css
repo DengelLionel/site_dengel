@@ -54,65 +54,36 @@ border-radius: 0px 20px 20px 0px;
     .card{
         width: 296px;
         height: 316px;
-        background: #E6E6E6;
-    border-radius: 20px;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 7px;
     }
     .content1{
         width: 282px;
         height: 151px;
-        background: #E6E6E6;
-    border-radius: 20px 20px 0px 0px;
     }
     .content2{
         width: 282px;
         height: 150px;
-        background: #3918A4;
     border-radius: 0px 0px 20px 20px;
     }
     .container{
-        width: 100%;
-        display: flex;
         flex-direction: row;
-        justify-content: center;
         gap: 15px;
-    
-        
     }
 }
 @media screen and (min-width: 768px) {
     .card{
         width: 296px;
         height: 316px;
-        background: #E6E6E6;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 7px;
     }
     .content1{
-        width: 282px;
-        height: 151px;
-        background: #E6E6E6;
     border-radius: 20px 20px 0px 0px;
     }
     .content2{
-        width: 282px;
-        height: 150px;
-        background: #3918A4;
         line-height: 32px;
-    border-radius: 0px 0px 20px 20px;
     }
     .container{
         width: 100%;
-        display: flex;
-        flex-direction: row;
         justify-content: center;
         gap: 15px;
      
@@ -159,13 +130,4 @@ letter-spacing: 0.01em;
 color: #E6E6E6;
     }
 
-    .container{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 15px;
-    
-        
-    }
 }

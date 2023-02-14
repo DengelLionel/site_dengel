@@ -32,13 +32,11 @@ color: #E6E6E6;
 }
 @media screen and (min-width: 768px) {
     .titulo{
-        width: 500px;
         font-size: 48px;
         line-height: 50px;
-        text-align: center;
+
     }
     .preguntas{
-        padding: 24px;
         font-size: 24px;
         line-height: 35px;
     }
@@ -46,7 +44,7 @@ color: #E6E6E6;
 
 @media screen and (min-width: 1024px) {
     .titulo{
-        width: 500px;
+
         font-size: 50px;
         line-height: 53px;
         text-align: center;

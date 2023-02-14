@@ -7,8 +7,8 @@ const HechaVistasoProyectos = () => {
    <ContainerGeneral>
    <Titulo titulo='Echa un vistazo a mis proyectos'/>
    <section className={service.container}>
-   <Card titulo='Creo páginas informativas de calidad' image='https://d1ih8jugeo2m5m.cloudfront.net/2022/04/tipos-de-paginas-web-1200x685.jpg'/>
-   <Card titulo='Creo páginas informativas de calidad' image='https://d1ih8jugeo2m5m.cloudfront.net/2022/04/tipos-de-paginas-web-1200x685.jpg'/>
+   <Card titulo='Creo páginas informativas de calidad' image='https://res.cloudinary.com/darps1cta/image/upload/v1676390679/sitioweb/port_zpstv9.jpg'/>
+   <Card titulo='Creo páginas informativas de calidad' image='https://res.cloudinary.com/darps1cta/image/upload/v1676390679/sitioweb/port_zpstv9.jpg '/>
    </section>
    </ContainerGeneral>
   )

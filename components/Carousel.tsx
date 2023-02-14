@@ -15,7 +15,6 @@ const Carousel = ({cards}:any) => {
       setActiveIndex(activeIndex - 1);
     }
   };
-
   useEffect(() => {
     const timer = setInterval(() => {
       setActiveIndex(activeIndex + 1);

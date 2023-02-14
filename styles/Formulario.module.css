@@ -100,9 +100,6 @@ background-color: #f4c43e;
     }
 }
 @media screen and (min-width:1024px) {
-    .label{
-        font-size: 24px;
-    }
     .input{
         font-size: 20px;
         width: 400px;
