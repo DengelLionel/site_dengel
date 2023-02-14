@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
 .card{
     width: 328px;
     height: 187px;
@@ -32,7 +33,7 @@ border-radius: 20px 0px 0px 20px;
     width: 177px;
     height: 175px;
     color: #E6E6E6;
-    font-family: 'Roboto';
+    font-family: 'Segoe UI', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
@@ -147,7 +148,7 @@ align-items: center;
     }
     .text{
         width: 257px;
-        font-family: 'Roboto';
+        font-family: 'Segoe UI', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 24px;

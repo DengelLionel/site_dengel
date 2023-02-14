@@ -11,23 +11,12 @@ const FooterContent = () => {
     <h3 className={styles.titulo}>Contactame</h3>
             <ContenedorDatosFooter>
             <IconEmail/>
-           <span>denriveracajincho@gmail.com</span> 
-            </ContenedorDatosFooter>
-
-            <ContenedorDatosFooter>
             <IconTelegram/>       
             <IconWhatsapp/>
-                <span>+51 977 766 744</span> 
-            </ContenedorDatosFooter>
-            <ContenedorDatosFooter>
-            <IconInstagram/>     
-                <span>dengelrivera.dev</span> 
+            <IconInstagram/>   
+            <IconTiktok/>   
             </ContenedorDatosFooter>
 
-            <ContenedorDatosFooter>
-            <IconTiktok/>     
-                <span>@dengel_lionel</span> 
-            </ContenedorDatosFooter>
            <span className="text-white3">Diseño + Código © 2023</span>
            <span className="text-white3">Términos de política - privacidad del servicio</span>
            <span className="text-white3">Sitio hecho con react js, next js</span>

@@ -29,7 +29,9 @@ module.exports = {
         "azulpalido":"#878BB1",
         "black2":"#2F2E4D",
         "azul2":"#1E1357",
-        "white3":"#ABA7C0"
+        "white3":"#ABA7C0",
+        "azulpalido2":"#8E7FE8",
+        "white4":"#BFBBD6"
       },
       boxShadow:{
         "shadow1":" 0px 4px 4px rgba(1, 1, 55, 0.2) ",

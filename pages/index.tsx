@@ -19,7 +19,7 @@ import SitiosWeb from '../components/SitiosWeb'
 import SitioWeb1024mas from '../components/SitioWeb1024mas'
 import MisServicios from '../components/MisServicios'
 import LoQueYoOfrezco from '../components/LoQueYoOfrezco'
-import PorqueTrabajarConmigo from '../components/PorqueTrabajarConmigo'
+import Preguntas from '../components/Preguntas'
 import HechaVistasoProyectos from '../components/HechaVistasoProyectos'
 import PlantillasWeb from '../components/PlantillasWeb'
 import Formulario from '../components/Formulario'
@@ -38,8 +38,9 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet"/>
       </Head>
-    
+      <header className={styles.header}>
       <HeaderTwo navMobileContent={<NavMobileTypeTwo colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
     <LinkNav Icon={ <IconHome/>} text={" Mi punto de partida"} href={"#"}/>
         <LinkNav Icon={ <IconModule/>} text={" Mis servicios integrales"} href={"#"}/>
@@ -57,6 +58,7 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
   </NavDesktopTypeTwo>} 
   setOpenMenu={()=>{setOpenMenu(!openMenu)}} 
   setOpenMenuDesktop={()=>{setOpenMenuDesktop(!openMenuDesktop)}}/>
+  </header>
     
     
 
@@ -88,10 +90,12 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
 
      <MisServicios/>
      <LoQueYoOfrezco/>
-     <PorqueTrabajarConmigo/>
+     
      <HechaVistasoProyectos/>
      <PlantillasWeb/>
+     <Preguntas/>
      <Formulario/>
+     
       </main>
       <footer className='bg-azul2 w-full h-auto p-[16px]'>
       <FooterContent/>

@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
 .text1{
     font-family: 'Rowdies';
     font-style: normal;
@@ -19,4 +20,98 @@
     letter-spacing: 0.01em;
     
     color: #E6E6E6;
+}
+.label{
+    font-family: 'Segoe UI', sans-serif;
+    font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+
+letter-spacing: 0.015em;
+
+color: #BFBBD6;
+}
+.input{
+    line-height: none;
+    font-style: normal;
+    font-family: 'Segoe UI', sans-serif;
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0.015em;
+margin-top: 16px;
+border:2px  solid  transparent;
+background-color: #2F2E4D;
+padding: 8px;
+color: #8E7FE8;
+border-radius: 7px;
+}
+.input:focus{
+    outline: none;
+    border: 2px solid #878BB1;
+   
+}
+.textarea{
+    margin-top: 16px;
+    background: #2F2E4D;
+    padding: 8px;
+color: #8E7FE8;
+    border:2px  solid  transparent;
+
+border-radius: 7px;
+resize: none;
+height: 160px;
+line-height: none;
+font-style: normal;
+font-family: 'Segoe UI', sans-serif;
+font-weight: 500;
+font-size: 16px;
+}
+.textarea:focus{
+    outline: none;
+    border: 2px solid #878BB1;
+}
+.button{
+    font-family: 'Segoe UI', sans-serif;
+    margin-top: 32px;
+    font-weight:800;
+    font-size: 16px;
+    width: 328px;
+line-height: 19px;
+padding: 8px;
+background: #F5BB19;
+border-radius: 7px;
+text-align: center;
+letter-spacing: 0.015em;
+transition: all;
+transition-duration: 500ms;
+color: #212047;
+}
+.button:hover{
+background-color: #f4c43e;
+}
+@media screen and (min-width:768px) {
+    .label{
+        font-size: 24px;
+    }
+    .button{
+        font-size: 24px;
+        padding: 10px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .label{
+        font-size: 24px;
+    }
+    .input{
+        font-size: 20px;
+        width: 400px;
+    }
+    .textarea{
+        font-size: 20px;
+    }
+    .button{
+        font-size: 24px;
+        padding: 15px;
+    }
 }
