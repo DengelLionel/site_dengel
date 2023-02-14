@@ -1,7 +1,6 @@
-import { useState,useEffect,useRef } from 'react';
+import { useState,useEffect,useRef,memo } from 'react';
 import carousel from "../styles/Carousel.module.css"
 import Image from 'next/image';
-
 const Carousel = ({cards}:any) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const carouselRef = useRef<any>(null);
@@ -24,6 +23,7 @@ const Carousel = ({cards}:any) => {
     };
   }, [activeIndex]);
   return (
+    
     <div ref={carouselRef} className="scrollx" onTouchMove={handleTouchMove}>
       {cards.map((card:any,index:any)=>(
          <div key={index}
@@ -45,4 +45,4 @@ const Carousel = ({cards}:any) => {
   )
 }
 
-export default Carousel
+export default memo(Carousel)

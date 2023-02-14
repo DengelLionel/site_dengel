@@ -48,7 +48,7 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
         <LinkNav Icon={ <IconBlog/>} text={"Mi brog"} href={"#"}/>
         <LinkNav Icon={ <IconPlantilla/>} text={"Mis plantillas web premium"} href={"#"}/>
     </NavMobileTypeTwo>} 
-      posicion="lg:justify-center" logo={<Link href='/'><Image width={30} height={30} alt='image'  src={'next.svg'}/></Link>} LinksNavDesktop={<NavDesktop/>} colorHeader='bg-gradient-to-t from-primary via-secundary to-secundary ' openMenuDesktop={openMenuDesktop}  openMenu={openMenu} 
+      posicion="lg:justify-center" logo={<Link href='/'><Image width={30} height={30} alt='image'  src={'next.svg'}/></Link>} LinksNavDesktop={<NavDesktop/>} colorHeader='bg-primary ' openMenuDesktop={openMenuDesktop}  openMenu={openMenu} 
       
       navDesktopLittle={<NavDesktopTypeTwo colorNavLittleDesktop={"bg-whiteTransparent3 backdrop-blur"} openMenuDesktop={openMenuDesktop}>
       <LinkNavLittleDesktop href="#" Icon={<IconBrochure/>} text="Mi brochure"/>
