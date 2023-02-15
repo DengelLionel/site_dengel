@@ -1,7 +1,7 @@
 .imagenSM{
-    width: 195px;
-    height: 238px;
-    
+    width: 360px;
+    height: 200px;
+    margin-bottom: 20px;
 }
 .imagenMD{
     display: none;
@@ -15,8 +15,9 @@
     }
     .imagenMD{
         display:block;
-        width: 416px;
+        width: 600px;
         height: 270px;
+        margin-bottom: 80px;
     }
 }
 @media screen and (min-width:1024px) {
@@ -28,7 +29,8 @@
        }
     .imagenLG{
         display:block;
-        width:460px;
+        width:1000px;
         height: 300px;
+        margin-bottom: 290px;
     }
 }

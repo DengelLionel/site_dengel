@@ -160,11 +160,7 @@ color: #E6E6E6;
   .fondo{
     padding-bottom:32px;
     height:600px ;
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    align-items:flex-start;
-    
+
   }
 
 }

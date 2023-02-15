@@ -66,21 +66,27 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
     
     
       <main className='bg-gradient-to-t from-secundary2 via-secundary3 to-secundary3 ' >
-   
+      
      <section className={styles.fondo}>
+     <section className='lg:w-full lg:flex lg:flex-row 2xl:justify-center 2xl:items-center'>
+      <section>
      <h2 className={styles.textPresent}>Creo apps efectivas con diseño y codificación de calidad</h2>
    
      <article className={styles.seccion}>
       <p className=' lg:w-[560px]'>Maximiza tus resultados conmigo.</p>
      </article>
-   
-     <article className='hidden lg:flex lg:absolute lg:left-[410px]  lg:top-[170px] xl:absolute xl:left-[630px] xl:top-[210px]'>
-     <SitioWeb1024mas/>
-     </article>
-
-     <article className='p-[16px] mt-[21px] mb-[21px] lg:ml-[20px] xl:ml-[32px] xl:mt-0 xl:relative xl:-top-[5%]'>
+     <article className='flex justify-center items-center p-[16px] mt-[21px] mb-[21px] lg:ml-[20px] xl:ml-[32px] xl:mt-0 '>
      <button className={styles.button}>Conoce más</button>
      </article>
+     </section>
+     <article className='hidden lg:flex lg:relative lg:-left-[150px] xl:-left-0'>
+     <SitioWeb1024mas/>
+     </article>
+     </section>
+     
+
+
+     
 
      <article className='pl-[16px] pr-[16px] pb-[50px] sm:flex sm:justify-center  md:pb-[80px] lg:hidden'>
      <SitiosWeb/>

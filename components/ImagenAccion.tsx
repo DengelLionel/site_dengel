@@ -7,15 +7,15 @@ interface accion{
 }
 const ImagenAccion = ({image,tituloButton}:accion) => {
   return (
-    <section className='flex flex-col justify-center items-center gap-[20px] '>
-      <article className={accion.imagenSM}>
-      <Image style={{'objectFit':'cover'}} src={image} width={195} height={250} alt={tituloButton}/>
+    <section className='flex flex-col justify-center items-center h-auto gap-[20px] '>
+      <article className={accion.imagenSM }>
+      <Image style={{'objectFit':'cover'}}  src={image} width={360} height={200} alt={tituloButton}/>
       </article>
       <article className={accion.imagenMD}>
-      <Image style={{'objectFit':'cover'}}  src={image} width={416} height={270} alt={tituloButton}/>
+      <Image style={{'objectFit':'cover'}}  src={image} width={600} height={270} alt={tituloButton}/>
       </article>
       <article className={accion.imagenLG}>
-      <Image style={{'objectFit':'cover'}}  src={image} width={460} height={300} alt={tituloButton}/>
+      <Image style={{'objectFit':'cover'}}  src={image} width={1000} height={300} alt={tituloButton}/>
       </article>
         
         <button className={styles.button}>{tituloButton}</button>

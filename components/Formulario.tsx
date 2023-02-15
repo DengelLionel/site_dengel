@@ -3,7 +3,7 @@ import formulario from "../styles/Formulario.module.css"
 const Formulario = () => {
   return (
  <ContainerGeneral>
-    <span className='text-center'>
+    <span className='flex flex-col justify-center items-center gap-[6px] lg:gap-[25px] text-center '>
         <span className={formulario.text1}>Dime lo que necesitas.</span>
         <h2 className={formulario.text2}>Yo te ayudo a solucionarlo</h2>
     </span>
