@@ -13,7 +13,7 @@ const Card = ({image,titulo}:cards) => {
       <Image  src={image} width={169} height={147} alt={titulo}/>
       </article>
       <article className={styles.content2}>
-        <h3>{titulo}</h3>
+        <h3 className={styles.text}> {titulo}</h3>
       </article>
     </section >
 

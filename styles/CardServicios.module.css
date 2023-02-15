@@ -1,3 +1,15 @@
+.text{
+    width: 257px;
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.015em;
+
+color: #E6E6E6;
+}
 
 .card{
     width: 328px;
@@ -118,16 +130,10 @@ align-items: center;
 
     }
     .text{
-        width: 257px;
-        font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 700;
+
 font-size: 24px;
 line-height: 33px;
-text-align: center;
-letter-spacing: 0.01em;
 
-color: #E6E6E6;
     }
 
 }

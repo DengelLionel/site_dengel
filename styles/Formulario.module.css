@@ -73,19 +73,16 @@ font-size: 16px;
 }
 .button{
     font-family: 'Roboto', sans-serif;
-    margin-top: 32px;
-    font-weight:800;
-    font-size: 16px;
-    width: 328px;
-line-height: 19px;
-padding: 8px;
-background: #F5BB19;
-border-radius: 7px;
-text-align: center;
-letter-spacing: 0.015em;
-transition: all;
-transition-duration: 500ms;
-color: #212047;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    background-color: #F5BB19;
+    color:#201F46 ;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 200px;
 }
 .button:hover{
 background-color: #f4c43e;

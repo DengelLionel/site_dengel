@@ -5,11 +5,17 @@ import IconWhatsapp from "./Icons/IconWhatsapp"
 import IconTelegram from "./Icons/IconTelegram"
 import IconInstagram from "./Icons/IconInstagram"
 import IconTiktok from "./Icons/IconTiktok"
+import IconLogomas1024 from "./Icons/IconLogomas1024"
+import IconLogo from "./Icons/IconLogo"
 import Link from "next/link"
 const FooterContent = () => {
   return (
-   <section className="flex flex-col justify-center items-center">
+   <section className="flex flex-col justify-center items-center ">
     <h3 className={styles.titulo}>Contactame</h3>
+    <section className=" lg:flex lg:flex-row lg:gap-[50px]"> 
+    <ContenedorDatosFooter>
+    <IconLogomas1024/>
+    </ContenedorDatosFooter>
             <ContenedorDatosFooter>
             <Link href="mailto:denriveracajincho@gmail.com?Subject=Quiero%20contactarme%20contigo%20Dengel" target="_blank"><IconEmail/></Link>
             <Link href="https://t.me/dengeldev" target="_blank"><IconTelegram/></Link>
@@ -20,10 +26,11 @@ const FooterContent = () => {
               
             </ContenedorDatosFooter>
 
+         
+           </section>
            <span className="text-white3">Diseño + Código © 2023</span>
            <span className="text-white3">Términos de política - privacidad del servicio</span>
            <span className="text-white3">Sitio hecho con react js, next js</span>
-        
    </section>
   )
 }

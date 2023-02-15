@@ -15,7 +15,7 @@
 border-radius: 7px;
 font-family: 'Roboto', sans-serif;
 font-style: normal;
-font-weight: 800;
+font-weight: bolder;
 font-size: 16px;
 line-height: 19px;
 text-align: center;
@@ -29,13 +29,14 @@ padding-bottom: 15px;
 
 @media screen and (min-width: 1024px) {
   .ofrezco{
-font-weight: 800;
+font-weight: 700;
 font-size: 26px;
 line-height: 38px;
   }
   .button{
-    font-size: 26px;
+    font-size: 24px;
     transition: all;
+    line-height: 25px;
     transition-duration: 500ms;
   }
   .button:hover{
