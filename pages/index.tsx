@@ -81,15 +81,9 @@ linksSubNav={<SubNav />} colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} o
      <SitioWeb1024mas/>
      </article>
      </section>
-     
-
-
-     
-
      <article className='pl-[16px] pr-[16px] pb-[50px] sm:flex sm:justify-center  md:pb-[80px] lg:hidden'>
      <SitiosWeb/>
      </article>
-  
      </section>
 
      <MisServicios/>
