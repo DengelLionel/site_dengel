@@ -31,9 +31,9 @@ const Carousel = ({cards}:any) => {
            activeIndex === index ? 0 : activeIndex < index ? "100" : "-100"
          }`}
        >
-         <div className=" w-[160px] h-[160px]  ">
-         <Image className="object-cover" width={160} height={160} src={card.img} alt={card.ofrezco} />
-         </div>
+       
+         <Image className="w-[160px] h-[160px]" width={0} height={0} src={card.img} alt={card.ofrezco} />
+       
          <p className={carousel.ofrezco}>{card.title}</p>
          <button className={carousel.button}>Conoce más</button>
        </div>

@@ -10,7 +10,7 @@ const Card = ({image,titulo}:cards) => {
     <div>
     <section className={styles.card}>
       <article className={styles.content1}>
-      <Image  src={image} width={169} height={147} alt={titulo}/>
+      <Image  className="w-full h-auto" priority  sizes="100vw" src={image} width="0" height="0" alt={titulo}/>
       </article>
       <article className={styles.content2}>
         <h3 className={styles.text}> {titulo}</h3>
@@ -19,9 +19,9 @@ const Card = ({image,titulo}:cards) => {
 
     <section className={styles.card1024}>
       <article className={styles.content}>
-      <section className='lg:w-[200px] lg:h-[200px]'>
-      <Image style={{'objectFit':'cover'}} src={image} width={200} height={200} alt={titulo}/>
-      </section>
+    
+      <Image className="w-[300px] h-auto" priority sizes="100vw" src={image} width="0" height="0" alt={titulo}/>
+     
         <h3 className={styles.text}>{titulo}</h3>
         <article className={styles.IconStart}>
         <IconStar/>
