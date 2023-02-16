@@ -19,15 +19,18 @@ import SitioWeb1024mas from '../components/SitioWeb1024mas'
 import MisServicios from '../components/MisServicios'
 import LoQueYoOfrezco from '../components/LoQueYoOfrezco'
 import Preguntas from '../components/Preguntas'
-import HechaVistasoProyectos from '../components/HechaVistasoProyectos'
+/* import HechaVistasoProyectos from '../components/HechaVistasoProyectos' */
 import PlantillasWeb from '../components/PlantillasWeb'
 import Formulario from '../components/Formulario'
 import FooterContent from '../components/FooterContent'
 import IconLogo from '../components/Icons/IconLogo'
+import SubNav from '../components/SubNav'
+
 export default function Home() {
 
 const[openMenu,setOpenMenu]=useState(false)
 const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
+const [openSubNav,setOpenSubNav]=useState(false)
   return (
 
     <div>
@@ -41,9 +44,10 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
 
       </Head>
       <header className={styles.header}>
-      <HeaderTwo navMobileContent={<NavMobileTypeTwo colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
+      <HeaderTwo navMobileContent={<NavMobileTypeTwo  openSubNav={openSubNav} setOpenSubNav={setOpenSubNav} colorSubNav='bg-sky-600' 
+linksSubNav={<SubNav />} colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
     <LinkNav Icon={ <IconHome/>} text={" Mi punto de partida"} hreff={"#"}/>
-        <LinkNav Icon={ <IconModule/>} text={" Mis servicios integrales"} hreff={"/servicios"}/>
+        <LinkNav Icon={ <IconModule/>} text={" Mis servicios integrales"} OnClick={()=>setOpenSubNav(true)}/>
         <LinkNav Icon={ <IconJob/>} text={" Mi repositorio de proyectos"} hreff={"#"}/>
         <LinkNav Icon={ <IconBrochure/>} text={"Mi brochure"} hreff={"#"}/>
         <LinkNav Icon={ <IconBlog/>} text={"Mi brog"} hreff={"#"}/>
@@ -97,7 +101,7 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
      <MisServicios/>
      <LoQueYoOfrezco/>
      
-     <HechaVistasoProyectos/>
+  {/* <HechaVistasoProyectos/> */}
      <PlantillasWeb/>
      <Preguntas/>
      <Formulario/>

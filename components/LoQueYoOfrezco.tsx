@@ -3,28 +3,34 @@ import Titulo from './Titulo'
 import ContainerGeneral from './ContainerGeneral';
 const cards = [
     {
-        img: 'https://res.cloudinary.com/darps1cta/image/upload/v1676390679/sitioweb/port_zpstv9.jpg',
-        title: 'Card  uhd',
+        img: '/paginainformativa.svg',
+        title: 'Páginas web personalizadas',
         color:'bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500',
-        description: 'Description for card 1'
+      
       },
     {
-      img: 'https://res.cloudinary.com/darps1cta/image/upload/v1676390679/sitioweb/port_zpstv9.jpg',
-      title: 'Card 2',
+      img: '/tiendavirtual.svg',
+      title: 'Tiendas virtuales - ecommerce',
       color:'bg-gradient-to-t from-green-300 via-blue-500 to-purple-600',
-      description: 'Description for card 2'
+    
     },
     {
-      img: 'https://res.cloudinary.com/darps1cta/image/upload/v1676390679/sitioweb/port_zpstv9.jpg',
-      title: 'Card 3',
+      img: '/aplicaciones.svg',
+      title: 'Aplicaciones web personalizadas',
       color:'bg-gradient-to-t from-gray-700 via-gray-900 to-black',
-      description: 'Description for card 3'
+    
     },
     {
-        img: 'https://res.cloudinary.com/darps1cta/image/upload/v1676390679/sitioweb/port_zpstv9.jpg',
-        title: 'Card 4',
+        img: '/asesoramiento.svg',
+        title: 'Asesoramiento personalizado',
         color:'bg-gradient-to-t from-blue-700 via-blue-800 to-gray-900',
-        description: 'Description for card 4'
+        
+      },
+      {
+        img: '/sistemasweb.svg',
+        title: 'Sistemas web personalizados',
+        color:'bg-gradient-to-t from-blue-700 via-blue-800 to-gray-900',
+        
       }
      
   ];

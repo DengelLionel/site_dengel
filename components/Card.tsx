@@ -19,7 +19,9 @@ const Card = ({image,titulo}:cards) => {
 
     <section className={styles.card1024}>
       <article className={styles.content}>
-      <Image  src={image} width={169} height={147} alt={titulo}/>
+      <section className='lg:w-[200px] lg:h-[200px]'>
+      <Image style={{'objectFit':'cover'}} src={image} width={200} height={200} alt={titulo}/>
+      </section>
         <h3 className={styles.text}>{titulo}</h3>
         <article className={styles.IconStart}>
         <IconStar/>
