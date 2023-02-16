@@ -10,13 +10,13 @@ const ImagenAccion = ({image,tituloButton,alt}:accion) => {
   return (
     <section className='flex flex-col justify-center items-center h-auto gap-[20px] '>
       <article className={accion.imagenSM }>
-      <Image className='w-full h-auto' sizes='100vw' priority src={image} width="0" height="0" alt={alt}/>
+      <Image className='w-full h-auto' sizes='100vw' priority={true} src={image} width="0" height="0"  alt={alt}/>
       </article>
       <article className={accion.imagenMD}>
-      <Image  className='w-full h-auto' sizes='100vw' priority src={image} width="0" height="0" alt={alt}/>
+      <Image  className='w-full h-auto' sizes='100vw' priority={true}  src={image} width="0" height="0" alt={alt}/>
       </article>
       <article className={accion.imagenLG}>
-      <Image className='w-full h-auto' sizes='100vw' priority  src={image}  width="0" height="0" alt={alt}/>
+      <Image className='w-full h-auto' sizes='100vw' priority={true}  src={image}  width="0" height="0" alt={alt}/>
       </article>
         
         <button className={styles.button}>{tituloButton}</button>
