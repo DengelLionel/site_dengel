@@ -4,7 +4,7 @@
 
 
 .scrollx{
-  @apply flex flex-row justify-center items-center gap-[20px] pl-[16px] pb-[34px] w-full overflow-x-scroll;
+  @apply grid grid-cols-[repeat(5,auto)]  gap-[20px] pl-[16px] pb-[34px] w-full overflow-x-scroll xl:flex xl:flex-row xl:justify-center xl:items-center;
 }
 .scrollx::-webkit-scrollbar {
   width: 0.2em;

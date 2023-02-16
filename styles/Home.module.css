@@ -28,8 +28,14 @@ margin-bottom: 12px;
 }
 .linkNavLittleDesktop{
   color: #fafafa;
+  width: 100%;
   display: flex;
   flex-direction: row;
+  transition: all;
+  transition-duration: 400ms;
+  padding: 7px;
+  border-radius: 7px;
+  border: 1px solid transparent;
   gap: 7px;
 
 }
@@ -162,6 +168,12 @@ color: #E6E6E6;
     height:600px ;
 
   }
+  .linkNavLittleDesktop:hover{
+    border-radius:7px;
+    border: 1px solid #dafa4b;
+    color:#3B3A5F;
+    background-color: rgba(250, 204, 75, 0.82);
+  }
 
 }
 
@@ -182,4 +194,9 @@ color: #E6E6E6;
   }
 
 
+}
+@media screen and (min-width: 1536px) {
+  .titulo{
+    line-height: 57px;
+    }
 }

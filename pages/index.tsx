@@ -43,7 +43,7 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
       <header className={styles.header}>
       <HeaderTwo navMobileContent={<NavMobileTypeTwo colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
     <LinkNav Icon={ <IconHome/>} text={" Mi punto de partida"} href={"#"}/>
-        <LinkNav Icon={ <IconModule/>} text={" Mis servicios integrales"} href={"#"}/>
+        <LinkNav Icon={ <IconModule/>} text={" Mis servicios integrales"} href={"/servicios"}/>
         <LinkNav Icon={ <IconJob/>} text={" Mi repositorio de proyectos"} href={"#"}/>
         <LinkNav Icon={ <IconBrochure/>} text={"Mi brochure"} href={"#"}/>
         <LinkNav Icon={ <IconBlog/>} text={"Mi brog"} href={"#"}/>
@@ -65,7 +65,7 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
     
     
     
-      <main className='bg-gradient-to-t from-secundary2 via-secundary3 to-secundary3 ' >
+      <main className='bg-gradient-to-t from-secundary2 via-secundary3 to-secundary3 pb-[40px] ' >
       
      <section className={styles.fondo}>
      <section className='lg:w-full lg:flex lg:flex-row 2xl:justify-center 2xl:items-center'>
