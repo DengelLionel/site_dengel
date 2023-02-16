@@ -42,12 +42,12 @@ const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
       </Head>
       <header className={styles.header}>
       <HeaderTwo navMobileContent={<NavMobileTypeTwo colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
-    <LinkNav Icon={ <IconHome/>} text={" Mi punto de partida"} href={"#"}/>
-        <LinkNav Icon={ <IconModule/>} text={" Mis servicios integrales"} href={"/servicios"}/>
-        <LinkNav Icon={ <IconJob/>} text={" Mi repositorio de proyectos"} href={"#"}/>
-        <LinkNav Icon={ <IconBrochure/>} text={"Mi brochure"} href={"#"}/>
-        <LinkNav Icon={ <IconBlog/>} text={"Mi brog"} href={"#"}/>
-        <LinkNav Icon={ <IconPlantilla/>} text={"Mis plantillas web premium"} href={"#"}/>
+    <LinkNav Icon={ <IconHome/>} text={" Mi punto de partida"} hreff={"#"}/>
+        <LinkNav Icon={ <IconModule/>} text={" Mis servicios integrales"} hreff={"/servicios"}/>
+        <LinkNav Icon={ <IconJob/>} text={" Mi repositorio de proyectos"} hreff={"#"}/>
+        <LinkNav Icon={ <IconBrochure/>} text={"Mi brochure"} hreff={"#"}/>
+        <LinkNav Icon={ <IconBlog/>} text={"Mi brog"} hreff={"#"}/>
+        <LinkNav Icon={ <IconPlantilla/>} text={"Mis plantillas web premium"} hreff={"#"}/>
     </NavMobileTypeTwo>} 
       logo={<Link href='/'><IconLogo/></Link>} LinksNavDesktop={<NavDesktop/>} colorHeader='bg-primary ' openMenuDesktop={openMenuDesktop}  openMenu={openMenu} 
       
