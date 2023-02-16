@@ -63,13 +63,7 @@ linksSubNav={<SubNav />} colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} o
   setOpenMenu={()=>{setOpenMenu(!openMenu)}} 
   setOpenMenuDesktop={()=>{setOpenMenuDesktop(!openMenuDesktop)}}/>
   </header>
-    
-    
-
-    
-    
-    
-      <main className='bg-gradient-to-t from-secundary2 via-secundary3 to-secundary3 pb-[40px] ' >
+      <main className='bg-gradient-to-t w-full h-full from-secundary2 via-secundary3 to-secundary3 pb-[40px] ' >
       
      <section className={styles.fondo}>
      <section className='lg:w-full lg:flex lg:flex-row 2xl:justify-center 2xl:items-center'>
