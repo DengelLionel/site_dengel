@@ -53,7 +53,7 @@ linksSubNav={<SubNav />} colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} o
         <LinkNav Icon={ <IconBlog/>} text={"Mi brog"} hreff={"#"}/>
         <LinkNav Icon={ <IconPlantilla/>} text={"Mis plantillas web premium"} hreff={"#"}/>
     </NavMobileTypeTwo>} 
-      logo={<Link href='/'><IconLogo/></Link>} LinksNavDesktop={<NavDesktop/>} colorHeader='bg-primary ' openMenuDesktop={openMenuDesktop}  openMenu={openMenu} 
+      logo={<Link href='/' aria-label="te envia home (mi punto de partida)"><IconLogo/></Link>} LinksNavDesktop={<NavDesktop/>} colorHeader='bg-primary ' openMenuDesktop={openMenuDesktop}  openMenu={openMenu} 
       
       navDesktopLittle={<NavDesktopTypeTwo colorNavLittleDesktop={"bg-whiteTransparent3 backdrop-blur"} openMenuDesktop={openMenuDesktop}>
       <LinkNavLittleDesktop href="#" Icon={<IconBrochure/>} text="Mi brochure"/>
