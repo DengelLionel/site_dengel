@@ -12,7 +12,7 @@ const Carousel = ({cards}:any) => {
        >
        
         {/*  <Image className="w-[160px] h-[160px]" priority={true} width={0} height={0} src={card.img} alt={card.title} /> */}
-       
+         {card.img}
          <p className={carousel.ofrezco}>{card.title}</p>
          <button className={carousel.button}>Conoce más</button>
        </div>

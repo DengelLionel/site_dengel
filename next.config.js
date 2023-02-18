@@ -4,7 +4,8 @@ const nextConfig = {
   images:{
     domains:["res.cloudinary.com"],
  
-   }
+   },
+ 
 }
 
 const withBundleAnalyzer=require('@next/bundle-analyzer')({

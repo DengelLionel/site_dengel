@@ -43,7 +43,7 @@ margin-top: 16px;
 border:2px  solid  transparent;
 background-color: #2F2E4D;
 padding: 8px;
-color: #8E7FE8;
+color: #dadadc;
 border-radius: 7px;
 }
 .input:focus{
@@ -55,7 +55,7 @@ border-radius: 7px;
     margin-top: 16px;
     background: #2F2E4D;
     padding: 8px;
-color: #8E7FE8;
+color: #dadadc;
     border:2px  solid  transparent;
 
 border-radius: 7px;
