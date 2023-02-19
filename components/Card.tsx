@@ -1,13 +1,20 @@
 import Image from 'next/image'
 import styles from "../styles/CardServicios.module.css"
 import IconStar from './Icons/IconStar'
+import {Roboto} from "@next/font/google"
 interface cards{
   image:string,
   titulo:string,
 }
+const robotoo=Roboto({
+style:['normal'],
+weight:['400','700'],
+ variable:'--font-roboto',
+  subsets:['latin']
+})
 const Card = ({image,titulo}:cards) => {
   return (
-    <div>
+    <div className={robotoo.variable}>
     <section className={styles.card}>
       <article className={styles.content1}>
       <Image  className="w-full h-auto"  sizes="100vw" src={image} width="0" height="0" alt={titulo}/>

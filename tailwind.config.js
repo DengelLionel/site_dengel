@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -37,8 +38,7 @@ module.exports = {
         "shadow1":" 0px 4px 4px rgba(1, 1, 55, 0.2) ",
       },
       fontFamily:{
-        "Rowdies":["Rowdies","sans-serif"],
-        "SegoeUI":["sans-serif"],
+       
       },
       
     },

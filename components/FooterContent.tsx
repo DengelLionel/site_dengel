@@ -8,10 +8,26 @@ import IconTiktok from "./Icons/IconTiktok"
 import IconLogomas1024 from "./Icons/IconLogomas1024"
 import IconLogo from "./Icons/IconLogo"
 import Link from "next/link"
+import {Roboto,Rowdies} from '@next/font/google'
+const robotoo = Roboto({
+  style:["normal"],
+  weight:["400","700"],
+  subsets:["latin"],
+  variable:"--font-roboto"
+})
+const rowdie=Rowdies({
+  style:["normal"],
+  weight:["400","700"],
+  subsets:["latin"],
+  variable:"--font-rowdies"
+})
 const FooterContent = () => {
   return (
    <section className="flex flex-col justify-center items-center ">
+    <article className={rowdie.variable}>
     <h3 className={styles.titulo}>Contactame</h3>
+    </article>
+    
     <section className=" lg:flex lg:flex-row lg:gap-[50px]"> 
     <ContenedorDatosFooter>
     <IconLogomas1024/>
@@ -25,9 +41,15 @@ const FooterContent = () => {
             </ContenedorDatosFooter>
          
            </section>
-           <span className="text-white3">Diseño + Código © 2023</span>
+           <section className={robotoo.variable}>
+            <section className={styles.datosFinales}>
+            <span className="text-white3">Diseño + Código © 2023</span>
            <Link className="text-white3" href="#" target="_blank">Términos de política - privacidad del servicio</Link>
            <span className="text-white3">Sitio hecho con react js, next js</span>
+            </section>
+          
+           </section>
+          
    </section>
   )
 }

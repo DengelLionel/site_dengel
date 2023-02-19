@@ -1,6 +1,13 @@
-import { useState,useEffect,useRef,memo } from 'react';
+import {memo } from 'react';
 import carousel from "../styles/Carousel.module.css"
 import Image from 'next/image';
+import {Roboto} from '@next/font/google'
+const robotoo = Roboto({
+  style:["normal"],
+  weight:["400","700"],
+  subsets:["latin"],
+  variable:"--font-roboto"
+})
 const Carousel = ({cards}:any) => {
 
   return (
@@ -13,8 +20,11 @@ const Carousel = ({cards}:any) => {
        
         {/*  <Image className="w-[160px] h-[160px]" priority={true} width={0} height={0} src={card.img} alt={card.title} /> */}
          {card.img}
+         <article className={robotoo.variable}>
          <p className={carousel.ofrezco}>{card.title}</p>
+         
          <button className={carousel.button}>Conoce más</button>
+         </article>
        </div>
       ))}
      
