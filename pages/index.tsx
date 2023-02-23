@@ -32,7 +32,7 @@ const inter = Roboto({
   variable: '--font-roboto',
 })
 const rowdies1 = Rowdies({
-  weight: ['700'],
+  weight: ['400'],
   style: ['normal'],
   subsets: ['latin'],
   variable: '--font-rowdies',
