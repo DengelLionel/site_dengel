@@ -82,7 +82,7 @@ linksSubNav={<SubNav />} colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} o
      <section className='lg:w-full lg:flex lg:flex-row 2xl:justify-center 2xl:items-center'>
       <section>
        <article className={rowdies1.variable}>
-     <h2 className={styles.textPresent}>Creo apps efectivas con diseño y codificación de calidad</h2>
+     <h1 className={styles.textPresent}>Creo apps efectivas con diseño y codificación de calidad</h1>
      </article>
 
       <article className={inter.variable}>
