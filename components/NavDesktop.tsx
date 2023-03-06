@@ -37,7 +37,7 @@ const NavDesktop = () => {
          />
         <LinkNav Icon={ <IconJob/>} text={" Mi repositorio de proyectos"} 
          
-        hreff={"#"}/>
+        hreff={"/portafolio"}/>
     </section>
   )
 }

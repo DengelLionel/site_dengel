@@ -25,6 +25,7 @@ import Formulario from '../components/Formulario'
 import FooterContent from '../components/FooterContent'
 import IconLogo from '../components/Icons/IconLogo'
 import SubNav from '../components/SubNav'
+import IconArrowBack from '../components/Icons/IconArrowBack'
 const inter = Roboto({
   weight: ['400',"700"],
   style: ['normal'],
@@ -56,11 +57,15 @@ const [openSubNav,setOpenSubNav]=useState(false)
       </Head>
       <div className={inter.variable}>
       <header className={styles.header}>
-      <HeaderTwo navMobileContent={<NavMobileTypeTwo  openSubNav={openSubNav} setOpenSubNav={setOpenSubNav} colorSubNav='bg-sky-600' 
-linksSubNav={<SubNav />} colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
+      <HeaderTwo navMobileContent={<NavMobileTypeTwo 
+       openSubNav={openSubNav} 
+       setOpenSubNav={setOpenSubNav} 
+       colorSubNav='bg-sky-600' 
+linksSubNav={<SubNav />} 
+colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
     <LinkNav Icon={ <IconHome/>} text={" Mi punto de partida"} hreff={"#"}/>
         <LinkNav Icon={ <IconModule/>} text={" Mis servicios integrales"} OnClick={()=>setOpenSubNav(true)}/>
-        <LinkNav Icon={ <IconJob/>} text={" Mi repositorio de proyectos"} hreff={"#"}/>
+        <LinkNav Icon={ <IconJob/>} text={" Mi repositorio de proyectos"} hreff={"/portafolio"}/>
         <LinkNav Icon={ <IconBrochure/>} text={"Mi brochure"} hreff={"#"}/>
         <LinkNav Icon={ <IconBlog/>} text={"Mi brog"} hreff={"#"}/>
         <LinkNav Icon={ <IconPlantilla/>} text={"Mis plantillas web premium"} hreff={"#"}/>

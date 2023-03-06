@@ -90,6 +90,7 @@ border-radius: 0px 20px 20px 0px;
     }
     .content1{
     border-radius: 20px 20px 0px 0px;
+    height: 151px;
     }
     .content2{
         line-height: 32px;
@@ -100,6 +101,9 @@ border-radius: 0px 20px 20px 0px;
         gap: 15px;
      
         
+    }
+    .text{
+        font-size: 20px;
     }
 }
 
@@ -123,7 +127,6 @@ border-radius: 0px 20px 20px 0px;
 background: #3918A4;
 border-radius: 20px;
 display: flex;
-justify-content: center;
 flex-direction: column;
 gap: 25px;
 align-items: center;

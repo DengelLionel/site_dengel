@@ -32,13 +32,17 @@ module.exports = {
         "azul2":"#1E1357",
         "white3":"#ABA7C0",
         "azulpalido2":"#8E7FE8",
-        "white4":"#BFBBD6"
+        "white4":"#BFBBD6",
+        "white5":"#CED0EB"
       },
       boxShadow:{
         "shadow1":" 0px 4px 4px rgba(1, 1, 55, 0.2) ",
+        "shadow2":"0px 4px 4px #08080F"
       },
       fontFamily:{
-       
+       roboto:'var(--font-roboto)',
+       rowdies:'var(--font-rowdies)'
+
       },
       
     },
