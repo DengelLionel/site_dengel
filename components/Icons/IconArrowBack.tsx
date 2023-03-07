@@ -3,6 +3,7 @@ import React from 'react'
 const IconArrowBack = ({BackClick}:any,props:any) => {
   return (
     <svg
+    className='md:hidden'
     onClick={BackClick}
     width={29}
     height={24}

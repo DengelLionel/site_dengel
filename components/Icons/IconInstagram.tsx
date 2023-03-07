@@ -1,4 +1,7 @@
-const IconInstagram = ({fill}:any,props:any) => {
+interface colorIcon{
+  fill?:string
+}
+const IconInstagram = ({fill}:colorIcon,props:any) => {
   return (
     <svg
     width={20}

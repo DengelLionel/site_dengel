@@ -31,9 +31,9 @@ const router=useRouter()
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logodev.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
-
-
       </Head>
+
+
       <div className='md:flex md:flex-row'>
      
       <header >
@@ -76,12 +76,13 @@ openMenuDesktop={openMenuDesktop}
 setOpenMenu={()=>{setOpenMenu(!openMenu)}} 
 setOpenMenuDesktop={()=>{setOpenMenuDesktop(!openMenuDesktop)}}/> 
   </header>
-  </div>
-      <main className='bg-gradient-to-t w-full h-[100vh] from-secundary2 via-secundary3 to-secundary3 ' >
+  
+      <main className='bg-gradient-to-t w-full h-full md:h-[100%] from-secundary2 via-secundary3 to-secundary3 md:p-[20px] lg:p-[30px] xl:p-[40px]' >
       <AllMobile/>
         <SobreMi/>
 
       </main>
+      </div>
       </div>
       
  

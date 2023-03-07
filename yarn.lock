@@ -1840,10 +1840,10 @@ commander@^7.2.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-7.2.0.tgz#a36cb57d0b501ce108e4d20559a150a391d97ab7"
   integrity sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==
 
-componentes-dengel@^1.3.52:
-  version "1.3.52"
-  resolved "https://registry.yarnpkg.com/componentes-dengel/-/componentes-dengel-1.3.52.tgz#a3d2e19a4666d1f611e11f0cf30a0017f5dd7d77"
-  integrity sha512-JHIztHeDyeG2f+sE9BJa38jJcth3o5FlgVjsisDRumtEr9Z+BSKcw+KW38xvsH1uMnZagqOc9ciErUEebpk+sg==
+componentes-dengel@^1.3.56:
+  version "1.3.56"
+  resolved "https://registry.yarnpkg.com/componentes-dengel/-/componentes-dengel-1.3.56.tgz#ea60a12b814600d672c39d048ff4339e0c149cde"
+  integrity sha512-6PAyVD1Ty7SRKfG3BmR/TcWugHSG8Oynw86r7XCigvpUaR1qvdKd9ZowM6doh9fg9b7ASZUjANcIdyRX89PHag==
   dependencies:
     autoprefixer "^10.4.13"
     next "^13.1.1"

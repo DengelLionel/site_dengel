@@ -1,6 +1,8 @@
 import React from 'react'
-
-const IconDownload = (props:any) => {
+interface colorIcon{
+  fill?:string
+}
+const IconDownload = ({fill}:colorIcon,props:any) => {
   return (
     <svg
     width={24}
@@ -11,7 +13,7 @@ const IconDownload = (props:any) => {
   >
     <path
       d="M24 8.47h-6.857V0H6.857v8.47H0l12 9.883L24 8.47ZM0 21.178V24h24v-2.823H0Z"
-      fill="#F3F3F3"
+      fill={`${fill?fill:"#F3F3F3"}`}
     />
   </svg>
   )

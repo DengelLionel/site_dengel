@@ -15,6 +15,7 @@ module.exports = {
         "secundary":"#3918A4",
         "textPrimary":"#BDC3FE",
         "textPrimary2":"#BDC3FD",
+        "textPrimary3":"#E8EAFF",
         "textHover":"#fafafa",
         "whiteTransparent":"rgba(255,255,255,.9)",
         "whiteTransparent2":"rgba(155, 164, 231, 0.5)",
