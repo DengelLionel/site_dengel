@@ -1,14 +1,5 @@
 
-.titulo{
-    font-family: var(--font-rowdies);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 40px;
-    letter-spacing: 0.01em;
-    padding: 16px;
-    color: #E6E6E6;
-}
+
 .footerDatosContent{
     display: flex;
     flex-direction: row;
@@ -17,24 +8,10 @@
 
 
 margin-bottom: 10px;
-/* identical to box height */
-
 
 color: #E6E6E6;
 }
-.datosFinales{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 18px;
-    font-family: var(--font-roboto);
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-color: #E6E6E6;
-text-align: center;
-letter-spacing: 0.015em;
-}
+
 @media screen and (min-width:640px) {
     .footerDatosContent{
         font-size: 20px;

@@ -1,26 +1,20 @@
 import Image from 'next/image'
 import styles from "../styles/CardServicios.module.css"
 import IconStar from './Icons/IconStar'
-import {Roboto} from "@next/font/google"
 interface cards{
   image:string,
   titulo:string,
 }
-const robotoo=Roboto({
-style:['normal'],
-weight:['400','700'],
- variable:'--font-roboto',
-  subsets:['latin']
-})
+
 const Card = ({image,titulo}:cards) => {
   return (
-    <div className={robotoo.variable}>
+    <div >
     <section className={styles.card}>
       <article className={styles.content1}>
       <Image  className="w-full h-full"  sizes="100vw" src={image} width="0" height="0" alt={titulo}/>
       </article>
-      <article className={styles.content2}>
-        <h3 className={styles.text}> {titulo}</h3>
+      <article className='w-[177px] h-[175px] text-white2 font-roboto font-bold text-[24px] leading-[28px] text-center tracking-[0.015em] flex justify-center items-center p-[9px] bg-primary rounded-tl-[0px] rounded-tr-[20px] rounded-bl-[0px] rounded-br-[20px] sm:w-[282px] sm:h-[150px] sm:rounded-tl-[0px] sm:rounded-tr-[0px] sm:rounded-bl-[20px] sm:rounded-br-[20px] md:leading-[32px]'>
+        <h3 className='w-[257px] font-roboto not-italic font-bold text-[16px] leading-[25px] text-center tracking-[0.015em] text-white2 md:text-[20px] lg:text-[24px] lg:leading-[33px]'> {titulo}</h3>
       </article>
     </section >
 
@@ -29,7 +23,7 @@ const Card = ({image,titulo}:cards) => {
     
       <Image className="w-full h-[200px] rounded-tr-[20px] rounded-tl-[20px]" sizes="100vw" src={image} priority={true} width="0" height="0" alt={titulo}/>
   
-        <h3 className={styles.text}>{titulo}</h3>
+        <h3 className='w-[257px] font-roboto not-italic font-bold text-[16px] leading-[25px] text-center tracking-[0.015em] text-white2 md:text-[20px] lg:text-[24px] lg:leading-[33px]'>{titulo}</h3>
         <article className={styles.IconStart}>
         <IconStar/>
         </article>

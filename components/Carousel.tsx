@@ -1,13 +1,6 @@
 import {memo } from 'react';
 import carousel from "../styles/Carousel.module.css"
 import Image from 'next/image';
-import {Roboto} from '@next/font/google'
-const robotoo = Roboto({
-  style:["normal"],
-  weight:["400","700"],
-  subsets:["latin"],
-  variable:"--font-roboto"
-})
 const Carousel = ({cards}:any) => {
 
   return (
@@ -20,12 +13,12 @@ const Carousel = ({cards}:any) => {
        
       <Image className="w-[160px] h-[140px] " width={160} height={140} src={card.img} alt={card.title} />
       
-         <article className={robotoo.variable}>
+       
           <article className='flex flex-col justify-center'>
-         <p className={carousel.ofrezco}>{card.title}</p>
-         <button className={carousel.button}>Conoce más</button>
+         <p className='font-roboto not-italic font-bold h-[100px] text-[24px] leading-[28px] text-center tracking-[0.015em] text-white2 lg:text-[26px] lg:leading-[38px] lg:h-[130px]'>{card.title}</p>
+         <button className='bg-white2 rounded-tl-[7px] rounded-tr-[7px] rounded-br-[7px] rounded-bl-[7px] font-roboto not-italic font-bold text-[16px] leading-[19px] text-center tracking-[0.015em] text-azul3 pl-[31px] pr-[31px] pt-[15px] pb-[15px] lg:text-[24px] lg:transition-all lg:leading-[25px] lg:duration-[500ms] lg:hover:bg-secundary2 lg:hover:text-white2 lg:hover:shadow-shadow3'>Conoce más</button>
          </article>
-         </article>
+       
         
        </div>
       ))}

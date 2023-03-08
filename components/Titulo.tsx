@@ -1,20 +1,11 @@
-import { Rowdies } from "@next/font/google"
-import styles from "../styles/Home.module.css"
+
 interface titulo{
     titulo:string
 }
-const rowdie=Rowdies({
-  weight:["400","700"],
-  style:["normal"],
-  subsets:['latin'],
-  variable:"--font-rowdies"
-})
+
 const Titulo = ({titulo}:titulo) => {
   return (
-    <article className={rowdie.variable}>
-      <h2 className={styles.titulo}>{titulo}</h2>
-    </article>
-    
+      <h2 className='font-rowdies font-normal not-italic text-[32px] leading-[40px] tracking-[0.015em] p-[16px] text-white2 sm:w-[418px] sm:text-center md:text-[48px] md:w-[600px] md:leading-[50px] lg:text-[50px] lg:w-[800px] lg:leading-[48px] xl:font-light 2xl:leading-[57px] '>{titulo}</h2>
   )
 }
 

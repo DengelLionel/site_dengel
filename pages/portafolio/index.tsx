@@ -24,7 +24,7 @@ const [openSubNav,setOpenSubNav]=useState(false)
 const router=useRouter()
   return (
 
-    <div>
+    <div >
       <Head>
         <title>Mi portafolio</title>
         <meta name="description" content="Dengel Rivera dev - Mi portafolio web" />
@@ -34,9 +34,10 @@ const router=useRouter()
       </Head>
 
 
-      <div className='md:flex md:flex-row'>
+    
      
-      <header >
+   
+      <main className='bg-gradient-to-t w-full h-full md:flex md:flex-row md:items-center  from-secundary2 via-secundary3 to-secundary3 md:gap-[20px] md:h-[100vh]' > 
       <HeaderOne 
 navMobileContent={ <NavMobileTypeTwo 
 colorSubNav='bg-sky-600'
@@ -75,15 +76,15 @@ openMenuDesktop={openMenuDesktop}
 </NavDesktopTypeTwo>} 
 setOpenMenu={()=>{setOpenMenu(!openMenu)}} 
 setOpenMenuDesktop={()=>{setOpenMenuDesktop(!openMenuDesktop)}}/> 
-  </header>
-  
-      <main className='bg-gradient-to-t w-full h-full md:h-[100%] from-secundary2 via-secundary3 to-secundary3 md:p-[20px] lg:p-[30px] xl:p-[40px]' >
-      <AllMobile/>
-        <SobreMi/>
+     <AllMobile/> 
+     <div className='hidden md:w-full  md:flex md:justify-center md:items-center md:p-[20px] lg:p-[30px]'>
+     <SobreMi/>
+     </div>
+       
 
       </main>
       </div>
-      </div>
+     
       
  
   )

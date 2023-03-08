@@ -55,15 +55,15 @@ const [openSubNav,setOpenSubNav]=useState(false)
 
 
       </Head>
-      <div className={inter.variable}>
-      <header className={styles.header}>
+      
+      <header className="font-roboto tracking-[0.015em]">
       <HeaderTwo navMobileContent={<NavMobileTypeTwo 
        openSubNav={openSubNav} 
        setOpenSubNav={setOpenSubNav} 
        colorSubNav='bg-sky-600' 
 linksSubNav={<SubNav />} 
 colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
-    <LinkNav Icon={ <IconHome/>} text={" Mi punto de partida"} hreff={"#"}/>
+    <LinkNav Icon={ <IconHome/>} text={" Mi punto de partida"} hreff={"/"}/>
         <LinkNav Icon={ <IconModule/>} text={" Mis servicios integrales"} OnClick={()=>setOpenSubNav(true)}/>
         <LinkNav Icon={ <IconJob/>} text={" Mi repositorio de proyectos"} hreff={"/portafolio"}/>
         <LinkNav Icon={ <IconBrochure/>} text={"Mi brochure"} hreff={"#"}/>
@@ -80,24 +80,26 @@ colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
   setOpenMenu={()=>{setOpenMenu(!openMenu)}} 
   setOpenMenuDesktop={()=>{setOpenMenuDesktop(!openMenuDesktop)}}/>
   </header>
-  </div>
+
+
+
       <main className='bg-gradient-to-t w-full h-full from-secundary2 via-secundary3 to-secundary3 pb-[40px] ' >
       
      <section className={styles.fondo}>
      <section className='lg:w-full lg:flex lg:flex-row 2xl:justify-center 2xl:items-center'>
       <section>
-       <article className={rowdies1.variable}>
-     <h1 className={styles.textPresent}>Creo apps efectivas con diseño y codificación de calidad</h1>
-     </article>
+ 
+     <h1 className='text-[36px] font-rowdies font-normal text-center text-textPrimary2 p-[16px] leading-[45px] tracking-[0.015em] mb-[12px] sm:text-[40px] sm:w-[500px] md:text-[48px] md:w-[610px] md:p-[20px] md:leading-[60px] lg:ml-[20px] lg:mb-[12px] lg:text-left xl:text-[55px] xl:w-[710px] xl:p-[32px] xl:leading-[60px]'>Creo apps efectivas con diseño y codificación de calidad</h1>
+    
 
-      <article className={inter.variable}>
-     <article className={styles.seccion}>
-      <p className=' lg:w-[560px]'>Maximiza tus resultados conmigo.</p>
+     
+     <article className='p-[16px] font-roboto text-center font-medium text-[24px] leading-[35px] tracking-[0.015em] text-textPrimary sm:text-[26px] md:flex md:justify-center md:items-center md:leading-[50px] md:p-[20px] lg:items-center lg:leading-[40px] lg:font-bold xl:ml-[32px] xl:mb-[32px]'>
+      <p className=' lg:w-[560px]'>Maximiza tus resultados conmigo</p>
      </article>
      <article className='flex justify-center items-center p-[16px] mt-[21px] mb-[21px] lg:ml-[20px] xl:ml-[32px] xl:mt-0 '>
-     <button className={styles.button}>Conoce más</button>
+     <button className='font-roboto font-bold text-[20px] text-center bg-yellow1 text-azul3 pt-[10px] pb-[10px] rounded-tl-[10px] rounded-tr-[10px] rounded-br-[10px] rounded-bl-[10px] w-[200px] sm:text-[26px] sm:w-[292px] lg:w-[280px] lg:transition-all lg:duration-[500ms] lg:hover:bg-yellow3 lg:hover:text-azul4 xl:w-[300px] '>Conoce más</button>
      </article>
-     </article>
+    
      </section>
      <article className='hidden lg:flex lg:relative lg:-left-[150px] xl:-left-0'>
      <SitioWeb1024mas/>

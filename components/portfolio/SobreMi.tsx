@@ -5,7 +5,7 @@ import IconLinkedin from "../Icons/IconLinkedin"
 const SobreMi = () => {
   return (
    
-    <div className='hidden md:flex md:flex-row md:justify-center md:items-center md:gap-[30px] md:h-full'>
+    <div className='hidden md:flex md:flex-row md:w-[560px]  md:gap-[30px] '>
        
         <section className='flex flex-col gap-[57px]'>
 

@@ -2,13 +2,6 @@ import Link from 'next/link'
 import styles from '../styles/LinkNav.module.css'
 import { NavDesktopTypeTwo } from 'componentes-dengel'
 import LinkNavLittleDesktop from './LinkNavLittleDesktop'
-import {Roboto} from '@next/font/google'
-const robotoo = Roboto({
-  style:["normal"],
-  weight:["400","700"],
-  subsets:["latin"],
-  variable:"--font-roboto"
-})
 interface linkNav{
   Icon?:any,
   hreff?:string,
@@ -20,16 +13,16 @@ interface linkNav{
 }
 const LinkNav = ({Icon,hreff,text,OnClick,open,links}:linkNav) => {
   return hreff!==undefined?(
-    <article className={robotoo.variable}>
-    <Link className={styles.link} href={hreff}>
+   
+    <Link className='transition-all font-roboto font-medium duration-[300ms] delay-[75ms] text-white2 rounded-tl-[25px] rounded-tr-[25px] rounded-bl-[25px] rounded-br-[25px] border-[.2px] border-solid border-transparent pt-[8px] pb-[8px] pl-[10px] pr-[10px] text-[16px] grid grid-cols-[repeat(2,auto)]  gap-[10px] lg:text-textPrimary lg:flex lg:text-[18px] lg:flex-row lg:gap-[7px] lg:items-center lg:text-center lg:hover:text-white2 lg:hover:border-[.2px] lg:hover:border-solid lg:hover:border-textPrimary lg:hover:bg-linkHover lg:hover:shadow-shadow1 ' href={hreff}>
     {Icon}
     {text}</Link>
-    </article>
+  
   ):(
-    <section className={robotoo.variable}>
+   
     <section className='flex flex-col '>
       
-      <p onClick={OnClick} className={styles.link}>
+      <p onClick={OnClick}  className='transition-all font-roboto font-medium duration-[300ms] delay-[75ms] text-white2 rounded-tl-[25px] rounded-tr-[25px] rounded-bl-[25px] rounded-br-[25px] border-[.2px] border-solid border-transparent pt-[8px] pb-[8px] pl-[10px] pr-[10px] text-[16px] grid grid-cols-[repeat(2,auto)]  gap-[10px] lg:text-textPrimary lg:flex lg:text-[18px] lg:flex-row lg:gap-[7px] lg:items-center lg:text-center lg:hover:text-white2 lg:hover:border-[.2px] lg:hover:border-solid lg:hover:border-textPrimary lg:hover:bg-linkHover lg:hover:shadow-shadow1 '>
       {Icon}
     {text}</p>
       
@@ -40,7 +33,7 @@ const LinkNav = ({Icon,hreff,text,OnClick,open,links}:linkNav) => {
       
   </NavDesktopTypeTwo>
     </section>
-    </section>
+
     
   )
 }

@@ -11,6 +11,8 @@ module.exports = {
       colors:{
         "buttoncolor":"#F5BB19",
         "yellow2":"#F5BB19",
+        "yellow3":"#FACC4B",
+        "yellow4":"#dafa4b",
         "primary":"#300F9A",
         "secundary":"#3918A4",
         "textPrimary":"#BDC3FE",
@@ -31,14 +33,22 @@ module.exports = {
         "azulpalido":"#878BB1",
         "black2":"#2F2E4D",
         "azul2":"#1E1357",
+        "azul3":"#201F46",
+        "azul4":"#3B3A5F",
         "white3":"#ABA7C0",
         "azulpalido2":"#8E7FE8",
         "white4":"#BFBBD6",
-        "white5":"#CED0EB"
+        "white5":"#CED0EB",
+        "white6":"#dadadc",
+        "focusInput":"#878BB1",
+        "yellow5":"rgba(250, 204, 75, 0.82)",
+        "linkHover":"rgba(155, 164, 231, 0.5)"
       },
       boxShadow:{
         "shadow1":" 0px 4px 4px rgba(1, 1, 55, 0.2) ",
-        "shadow2":"0px 4px 4px #08080F"
+        "shadow2":"0px 4px 4px #08080F",
+        "shadow3":"0px 4px 4px rgba(0, 0, 0, 0.25)",
+       
       },
       fontFamily:{
        roboto:'var(--font-roboto)',

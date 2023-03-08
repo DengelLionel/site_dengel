@@ -3,13 +3,6 @@ import styles from '../styles/Preguntas.module.css'
 import Titulo from './Titulo'
 import ContainerGeneral from './ContainerGeneral'
 import { Question } from 'componentes-dengel'
-import {Roboto} from '@next/font/google'
-const robotoo = Roboto({
-  style:["normal"],
-  weight:["500","700"],
-  subsets:["latin"],
-  variable:"--font-roboto"
-})
 const questions=[
   { id:1,
      question:"¿Por qué Escoger Trabajar Conmigo?", 
@@ -28,11 +21,11 @@ const Preguntas = () => {
   return (
     <ContainerGeneral>
         <Titulo titulo='¿Qué más debo saber?'/>
-        <section className={robotoo.variable}>
-        <section className={styles.preguntas}>
+        
+        <section className='font-roboto not-italic font-medium text-[20px] leading-[26px] tracking-[0.015em] text-white2 sm:p-[24px] md:text-[24px] md:leading-[35px] lg:pl-[60px] lg:pr-[60px] lg:pt-[30px] lg:pb-[30px] lg:text-[26px] lg:leading-[35px] lg:w-[901px]'>
         <Question colorTextAnswer="text-azulpalido2" colorIconActive="#F5BB19" colorIconDefault="#BFBBD6" colorTextoActive="text-yellow2" colorTextoDefault="text-white4" questions={questions} idd={idd} setIdd={setIdd} />
         </section>
-        </section>
+      
     </ContainerGeneral>
   )
 }

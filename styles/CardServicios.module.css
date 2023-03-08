@@ -1,15 +1,4 @@
-.text{
-    width: 257px;
-    font-family: var(--font-roboto);
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 25px;
-text-align: center;
-letter-spacing: 0.015em;
 
-color: #E6E6E6;
-}
 
 .card{
     width: 328px;
@@ -41,24 +30,7 @@ gap: 6px;
     background: #E6E6E6;
 border-radius: 20px 0px 0px 20px;
 }
-.content2{
-    width: 177px;
-    height: 175px;
-    color: #E6E6E6;
-    font-family: var(--font-roboto);
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-text-align: center;
-letter-spacing: 0.01em;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 9px;
-    background: #3918A4;
-border-radius: 0px 20px 20px 0px;
-}
+
 .card1024{
     display: none;
 }
@@ -73,11 +45,7 @@ border-radius: 0px 20px 20px 0px;
         width: 282px;
         height: 151px;
     }
-    .content2{
-        width: 282px;
-        height: 150px;
-    border-radius: 0px 0px 20px 20px;
-    }
+   
     .container{
         flex-direction: row;
         gap: 15px;
@@ -92,9 +60,7 @@ border-radius: 0px 20px 20px 0px;
     border-radius: 20px 20px 0px 0px;
     height: 151px;
     }
-    .content2{
-        line-height: 32px;
-    }
+   
     .container{
         width: 100%;
         justify-content: center;
@@ -132,11 +98,6 @@ gap: 25px;
 align-items: center;
 
     }
-    .text{
-
-font-size: 24px;
-line-height: 33px;
-
-    }
+    
 
 }
