@@ -1,11 +1,11 @@
 import React from 'react'
-interface iconArrow{
-    setOpen:any
-}
-const IconArrowDown = ({setOpen}:iconArrow,props:any) => {
+import { useContext } from 'react'
+import { SiteContextVal } from '../../context/SiteContext'
+const IconArrowDown = ({id}:any,props:any) => {
+const {idProyectExperience}=useContext(SiteContextVal)
   return (
     <svg
-    onClick={setOpen}
+    className={`${idProyectExperience.id===id.id&& idProyectExperience.state!==false&&'rotate-180'} transition-all duration-500`}
     width={24}
     height={16}
     fill="none"

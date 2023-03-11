@@ -25,19 +25,8 @@ import Formulario from '../components/Formulario'
 import FooterContent from '../components/FooterContent'
 import IconLogo from '../components/Icons/IconLogo'
 import SubNav from '../components/SubNav'
-import IconArrowBack from '../components/Icons/IconArrowBack'
-const inter = Roboto({
-  weight: ['400',"700"],
-  style: ['normal'],
-  subsets: ['latin'],
-  variable: '--font-roboto',
-})
-const rowdies1 = Rowdies({
-  weight: ['400'],
-  style: ['normal'],
-  subsets: ['latin'],
-  variable: '--font-rowdies',
-})
+
+
 export default function Home() {
 
 const[openMenu,setOpenMenu]=useState(false)

@@ -14,7 +14,7 @@ import IconArrowBack from '../../components/Icons/IconArrowBack'
 import IconDownload from '../../components/Icons/IconDownload'
 import { useContext } from 'react'
 import {SiteContextVal} from '../../context/SiteContext'
-import SobreMi from '../../components/portfolio/SobreMi'
+import ProyectosExperienceDesktop from '../../components/portfolio/ProyectosExperienceDesktop'
 import { useRouter } from 'next/router'
 import AllMobile from '../../components/portfolio/AllMobile'
 export default function Home() {
@@ -26,8 +26,8 @@ const router=useRouter()
 
     <div >
       <Head>
-        <title>Mi portafolio</title>
-        <meta name="description" content="Dengel Rivera dev - Mi portafolio web" />
+        <title>Mis proyectos</title>
+        <meta name="description" content="Portafolio - Proyectos" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logodev.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -58,7 +58,7 @@ logo={<article className='flex flex-row items-center gap-[20px]'><IconArrowBack 
 LinksNavDesktop={<section className='flex flex-col gap-[26px]'>
  
     <LinkNavPortfolio Icon={<IconHomePort/>} href="/portafolio" text="Sobre mi"/>
-    <LinkNavPortfolio Icon={<IconProject/>} href="/misproyectos" text="Mis proyectos"/>
+    <LinkNavPortfolio Icon={<IconProject/>} href="#" text="Mis proyectos"/>
    <LinkNavPortfolio Icon={<IconSkill/>} href="#" text="Mis habilidades"/>
    <LinkNavPortfolio Icon={<IconDownload/>} href="#" text="Descarga mi cv"/>
     
@@ -78,7 +78,7 @@ setOpenMenu={()=>{setOpenMenu(!openMenu)}}
 setOpenMenuDesktop={()=>{setOpenMenuDesktop(!openMenuDesktop)}}/> 
      <AllMobile/> 
      <div className='hidden md:w-full  md:flex md:justify-center md:items-center md:p-[20px] lg:p-[30px]'>
-     <SobreMi/>
+        <ProyectosExperienceDesktop/>
      </div>
        
 

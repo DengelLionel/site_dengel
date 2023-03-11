@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="es">
       <Head>
-    
+      <link rel="icon" href="/logodev.ico" />
       </Head>
       <body>
         <Main />

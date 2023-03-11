@@ -42,7 +42,13 @@ module.exports = {
         "white6":"#dadadc",
         "focusInput":"#878BB1",
         "yellow5":"rgba(250, 204, 75, 0.82)",
-        "linkHover":"rgba(155, 164, 231, 0.5)"
+        "linkHover":"rgba(155, 164, 231, 0.5)",
+        "orangewhite":"#9D4BAF",
+        "morado":"#EEB96D",
+        
+      },
+      backgroundImage:{
+        "blackDegradado":"linear-gradient(4.99deg, #03030E 1.67%, rgba(0, 0, 0, 0.03) 93.66%)"
       },
       boxShadow:{
         "shadow1":" 0px 4px 4px rgba(1, 1, 55, 0.2) ",
