@@ -19,10 +19,10 @@ const LinkNav = ({Icon,text,href}:link) => {
   },[])
   
   return (
-    <span className="text-white2 flex items-center w-auto gap-[20px]" onClick={()=>Scroll(href)}>
+    <article className="text-white2 flex items-center w-auto gap-[20px] cursor-pointer" onClick={()=>Scroll(href)}>
       {Icon}
       {text}
-    </span>
+    </article>
   )
 }
 
