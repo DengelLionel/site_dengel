@@ -37,7 +37,7 @@ const router=useRouter()
     
      
    
-      <main className='bg-gradient-to-t w-full h-full md:flex md:flex-row md:items-center  from-secundary2 via-secundary3 to-secundary3 md:gap-[20px] md:h-[100vh]' > 
+      <main className='bg-gradient-to-t w-full h-full md:flex md:flex-1 from-secundary2 via-secundary3 to-secundary3 md:gap-[50px]' > 
       <HeaderOne 
 navMobileContent={ <NavMobileTypeTwo 
 colorSubNav='bg-sky-600'
@@ -57,10 +57,10 @@ posicion="lg:justify-center"
 logo={<article className='flex flex-row items-center gap-[20px]'><IconArrowBack BackClick={()=>router.push('/')}/><Link href='/' aria-label="te envia home (mi punto de partida)"><IconLogo/></Link> </article>} 
 LinksNavDesktop={<section className='flex flex-col gap-[26px]'>
  
-    <LinkNavPortfolio Icon={<IconHomePort/>} href="/portafolio" text="Sobre mi"/>
-    <LinkNavPortfolio Icon={<IconProject/>} href="#" text="Mis proyectos"/>
-   <LinkNavPortfolio Icon={<IconSkill/>} href="#" text="Mis habilidades"/>
-   <LinkNavPortfolio Icon={<IconDownload/>} href="#" text="Descarga mi cv"/>
+    <LinkNavPortfolio download={false} Icon={<IconHomePort/>} href="/portafolio" text="Sobre mi"/>
+    <LinkNavPortfolio download={false} Icon={<IconProject/>} href="/misproyectos" text="Mis proyectos"/>
+   <LinkNavPortfolio download={false} Icon={<IconSkill/>} href="/habilidades" text="Mis habilidades"/>
+   <LinkNavPortfolio download={true} Icon={<IconDownload/>} href="/files/cv_dengel_rivera_2023.pdf" text="Descarga mi cv"/>
     
 </section>} 
 colorHeader='bg-primary' 

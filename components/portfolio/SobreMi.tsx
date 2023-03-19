@@ -6,7 +6,7 @@ import ButtonContactRedSocial from "./ButtonContactRedSocial"
 const SobreMi = () => {
   return (
    
-    <div className='hidden md:flex md:flex-row md:w-[560px]  md:gap-[30px] xl:items-center xl:w-auto '>
+    <div className='hidden md:h-full md:flex md:items-center md:justify-center md:w-full'>
        
         <section className='flex flex-col gap-[57px]'>
 

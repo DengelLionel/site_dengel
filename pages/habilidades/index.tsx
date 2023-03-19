@@ -17,6 +17,7 @@ import {SiteContextVal} from '../../context/SiteContext'
 import SobreMi from '../../components/portfolio/SobreMi'
 import { useRouter } from 'next/router'
 import AllMobile from '../../components/portfolio/AllMobile'
+import Habilidades from '../../components/portfolio/Habilidades'
 export default function Home() {
 const {openMenuDesktop,setOpenMenuDesktop}=useContext(SiteContextVal)
 const[openMenu,setOpenMenu]=useState(false)
@@ -77,8 +78,8 @@ openMenuDesktop={openMenuDesktop}
 setOpenMenu={()=>{setOpenMenu(!openMenu)}} 
 setOpenMenuDesktop={()=>{setOpenMenuDesktop(!openMenuDesktop)}}/> 
      <AllMobile/> 
-     <div className='hidden md:w-full md:h-full md:flex md:justify-center md:items-center md:p-[20px] lg:p-[30px]'>
-     <SobreMi/>
+     <div className='hidden md:w-full md:h-full md:flex md:justify-center  md:items-center md:p-[20px] lg:p-[30px]'>
+     <Habilidades/>
      </div>
        
 

@@ -25,7 +25,13 @@ export const proyectExperience=[
         github:"https://github.com/DengelLionel/landingpage1",
         sitioweb:"https://landingpage1-zeta.vercel.app/",
         video:"https://www.youtube.com/embed/1lYuci1MAj8",
-        state:false
+        state:false,
+        imagenesPresentacion:{
+            mobil:"",
+            tablet:"",
+            desktop:""
+            }
+        
     },
     {
         id:2,
@@ -35,7 +41,27 @@ export const proyectExperience=[
         github:"https://github.com/DengelLionel/landingpage1",
         sitioweb:"https://landingpage1-zeta.vercel.app/",
         video:"https://www.youtube.com/embed/vfyV2u2D_Z0",
-        state:false
+        state:false,
+        imagenesPresentacion:{
+            mobil:"",
+            tablet:"",
+            desktop:""
+            }
+    },
+    {
+        id:3,
+        titulo:"Landing Page",
+        imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1676390679/sitioweb/port_zpstv9.jpg",
+        descripcion:"Es una landing page hecha en codigo js | next js | react js",
+        github:"https://github.com/DengelLionel/landingpage1",
+        sitioweb:"https://landingpage1-zeta.vercel.app/",
+        video:"https://www.youtube.com/embed/vfyV2u2D_Z0",
+        state:false,
+        imagenesPresentacion:{
+            mobil:"",
+            tablet:"",
+            desktop:""
+            }
     }
 ]
 
