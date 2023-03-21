@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import styles from '../styles/LinkNav.module.css'
 import { NavDesktopTypeTwo } from 'componentes-dengel'
 import LinkNavLittleDesktop from './LinkNavLittleDesktop'
 interface linkNav{

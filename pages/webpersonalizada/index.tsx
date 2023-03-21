@@ -1,29 +1,29 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 import {HeaderTwo,NavDesktopTypeTwo,NavMobileTypeTwo} from "componentes-dengel" 
 import { useState } from 'react'
 import "componentes-dengel/dist/style.css" 
-import NavDesktop from '../components/NavDesktop'
-import LinkNav from '../components/LinkNav'
-import IconHome from '../components/Icons/IconHome'
-import IconJob from '../components/Icons/IconJob'
-import IconBlog from '../components/Icons/IconBlog'
-import IconBrochure from '../components/Icons/IconBrochure'
-import IconPlantilla from '../components/Icons/IconPlantilla'
-import IconModule from '../components/Icons/IconModule'
-import LinkNavLittleDesktop from "../components/LinkNavLittleDesktop"
-import SitiosWeb from '../components/SitiosWeb'
-import SitioWeb1024mas from '../components/SitioWeb1024mas'
-import MisServicios from '../components/MisServicios'
-import LoQueYoOfrezco from '../components/LoQueYoOfrezco'
-import Preguntas from '../components/Preguntas'
+import NavDesktop from '../../components/NavDesktop'
+import LinkNav from '../../components/LinkNav'
+import IconHome from '../../components/Icons/IconHome'
+import IconJob from '../../components/Icons/IconJob'
+import IconBlog from '../../components/Icons/IconBlog'
+import IconBrochure from '../../components/Icons/IconBrochure'
+import IconPlantilla from '../../components/Icons/IconPlantilla'
+import IconModule from '../../components/Icons/IconModule'
+import LinkNavLittleDesktop from "../../components/LinkNavLittleDesktop"
+import MisServicios from '../../components/MisServicios'
+import LoQueYoOfrezco from '../../components/LoQueYoOfrezco'
+import Preguntas from '../../components/Preguntas'
 /* import HechaVistasoProyectos from '../components/HechaVistasoProyectos' */
-import PlantillasWeb from '../components/PlantillasWeb'
-import Formulario from '../components/Formulario'
-import FooterContent from '../components/FooterContent'
-import IconLogo from '../components/Icons/IconLogo'
-import SubNav from '../components/SubNav'
+import PlantillasWeb from '../../components/PlantillasWeb'
+import Formulario from '../../components/Formulario'
+import FooterContent from '../../components/FooterContent'
+import IconLogo from '../../components/Icons/IconLogo'
+import SubNav from '../../components/SubNav'
+import ImagenWebPersonalizada from '../../components/webpersonalizada/ImagenWebPersonalizada'
+import ImagenWebPersonalizadaSmall from '../../components/webpersonalizada/ImagenWebPersonalizadaSmall'
 
 
 export default function Home() {
@@ -35,8 +35,8 @@ const [openSubNav,setOpenSubNav]=useState(false)
 
     <div>
       <Head>
-        <title>Mi punto de partida</title>
-        <meta name="description" content="Dengel Rivera dev - Mi punto de partida " />
+        <title>Páginas web personalizadas</title>
+        <meta name="description" content="Dengel Rivera dev - Página web personalizada " />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logodev.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -77,24 +77,24 @@ colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
      <section className='lg:w-full lg:flex lg:flex-row 2xl:justify-center 2xl:items-center'>
       <section>
  
-     <h1 className='text-[36px] font-rowdies font-normal text-center text-textPrimary2 p-[16px] leading-[45px] tracking-[0.015em] mb-[12px] sm:text-[40px] sm:w-[500px] md:text-[48px] md:w-[610px] md:p-[20px] md:leading-[60px] lg:ml-[20px] lg:mb-[12px] lg:text-left xl:text-[55px] xl:w-[710px] xl:p-[32px] xl:leading-[60px]'>Creo apps efectivas con diseño y codificación de calidad</h1>
+     <h1 className='text-[36px] font-rowdies font-normal text-center text-textPrimary2 p-[16px] leading-[45px] tracking-[0.015em] mb-[12px] sm:text-[40px] sm:w-[500px] md:text-[48px] md:w-[610px] md:p-[20px] md:leading-[60px] lg:ml-[20px] lg:mb-[12px] lg:text-left xl:text-[55px] xl:w-[710px] xl:p-[32px] xl:leading-[60px]'>Desarrollo de sitios webs personalizados</h1>
     
 
      
      <article className='p-[16px] font-roboto text-center font-medium text-[24px] leading-[35px] tracking-[0.015em] text-textPrimary sm:text-[26px] md:flex md:justify-center md:items-center md:leading-[50px] md:p-[20px] lg:items-center lg:leading-[40px] lg:font-bold xl:ml-[32px] xl:mb-[32px]'>
-      <p className=' lg:w-[560px]'>Maximiza tus resultados conmigo</p>
+      <p className=' lg:w-[560px]'>Landing Page, blogs y sitios informativos</p>
      </article>
      <article className='flex justify-center items-center p-[16px] mt-[21px] mb-[21px] lg:ml-[20px] xl:ml-[32px] xl:mt-0 '>
-     <button className='font-roboto font-bold text-[20px] text-center bg-yellow1 text-azul3 pt-[10px] pb-[10px] rounded-tl-[10px] rounded-tr-[10px] rounded-br-[10px] rounded-bl-[10px] w-[200px] sm:text-[26px] sm:w-[292px] lg:w-[280px] lg:transition-all lg:duration-[500ms] lg:hover:bg-yellow3 lg:hover:text-azul4 xl:w-[300px] '>Conoce más</button>
+     <button className='font-roboto font-bold text-[20px] text-center bg-yellow1 text-azul3 pt-[10px] pb-[10px] rounded-tl-[10px] rounded-tr-[10px] rounded-br-[10px] rounded-bl-[10px] w-[200px] sm:text-[26px] sm:w-[292px] lg:w-[280px] lg:transition-all lg:duration-[500ms] lg:hover:bg-yellow3 lg:hover:text-azul4 xl:w-[300px] '>Quiero cotización ahora!!</button>
      </article>
     
      </section>
      <article className='hidden lg:flex lg:relative lg:-left-[150px] xl:-left-0'>
-     <SitioWeb1024mas/>
+     <ImagenWebPersonalizada/>
      </article>
      </section>
      <article className='pl-[16px] pr-[16px] pb-[50px] sm:flex sm:justify-center  md:pb-[80px] lg:hidden'>
-     <SitiosWeb/>
+     <ImagenWebPersonalizadaSmall/>
      </article>
      </section>
 

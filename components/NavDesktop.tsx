@@ -33,7 +33,7 @@ const NavDesktop = () => {
          open={openMenuDesktop} 
          text={" Mis servicios integrales"}
           OnClick={()=>setOpenMenuDesktop(!openMenuDesktop)} 
-          links={[{id:1,href:"",link:"Páginas web personalizadas"},{id:2,href:"",link:"Mi Comercio Digital"},{id:3,href:"",link:"Aplicaciones web personalizadas"},{id:4,href:"",link:"Asesoramiento"},{id:5,href:"",link:"Sistemas web"}]}
+          links={[{id:1,href:"/webpersonalizada",link:"Páginas web personalizadas"},{id:2,href:"",link:"Mi Comercio Digital"},{id:3,href:"",link:"Aplicaciones web personalizadas"},{id:4,href:"",link:"Asesoramiento"},{id:5,href:"",link:"Sistemas web"}]}
          />
         <LinkNav Icon={ <IconJob/>} text={" Mi repositorio de proyectos"} 
          

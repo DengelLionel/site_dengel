@@ -13,7 +13,15 @@
 .scrollx::-webkit-scrollbar-thumb {
   background-color: transparent;
 }
-
+.button{
+  @apply font-roboto font-bold text-[20px] text-center  text-azul4 pt-[10px] mt-[20px] pb-[10px] w-[300px] transition-all duration-500  rounded-tl-[10px] rounded-tr-[10px] rounded-br-[10px] rounded-bl-[10px] md:text-[24px] md:w-[400px] md:p-[10px] lg:text-[24px] lg:p-[15px];
+}
+.button{
+  background-color: #F5BB19 !important;
+}
+.button:hover{
+  background-color: #FACC4B !important;
+}
 html{
   background: linear-gradient(180deg, #1F1E44 0%, #212048 100%);
 }
