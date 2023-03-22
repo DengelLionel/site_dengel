@@ -24,7 +24,7 @@ const NavDesktop = () => {
         <LinkNav 
         Icon={ <IconHome/>} 
         text={" Mi punto de partida"}
-         hreff="#"
+         hreff="/"
        
          />
         <LinkNav 
@@ -35,6 +35,7 @@ const NavDesktop = () => {
           OnClick={()=>setOpenMenuDesktop(!openMenuDesktop)} 
           links={[{id:1,href:"/webpersonalizada",link:"Páginas web personalizadas"},{id:2,href:"",link:"Mi Comercio Digital"},{id:3,href:"",link:"Aplicaciones web personalizadas"},{id:4,href:"",link:"Asesoramiento"},{id:5,href:"",link:"Sistemas web"}]}
          />
+         
         <LinkNav Icon={ <IconJob/>} text={" Mi repositorio de proyectos"} 
          
         hreff={"/portafolio"}/>

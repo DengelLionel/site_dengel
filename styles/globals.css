@@ -22,6 +22,11 @@
 .button:hover{
   background-color: #FACC4B !important;
 }
+@media (min-width: 1024px) {
+  .flex-row-rev {
+    flex-direction: row-reverse;
+  }
+}
 html{
   background: linear-gradient(180deg, #1F1E44 0%, #212048 100%);
 }

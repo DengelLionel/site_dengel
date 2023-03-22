@@ -24,6 +24,7 @@ import IconLogo from '../../components/Icons/IconLogo'
 import SubNav from '../../components/SubNav'
 import ImagenWebPersonalizada from '../../components/webpersonalizada/ImagenWebPersonalizada'
 import ImagenWebPersonalizadaSmall from '../../components/webpersonalizada/ImagenWebPersonalizadaSmall'
+import Contenido from '../../components/webpersonalizada/Contenido'
 
 
 export default function Home() {
@@ -97,14 +98,7 @@ colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
      <ImagenWebPersonalizadaSmall/>
      </article>
      </section>
-
-     <MisServicios/>
-     <LoQueYoOfrezco/>
-     
-  {/* <HechaVistasoProyectos/> */}
-     <PlantillasWeb/>
-     <Preguntas/>
-     <Formulario/>
+        <Contenido/>
      
       </main>
       <footer className='bg-azul2 w-full h-auto p-[16px]'>
