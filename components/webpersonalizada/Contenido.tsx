@@ -23,7 +23,7 @@ const Contenido = () => {
 
          <section className=' flex flex-col items-center justify-center gap-[30px] lg:w-[400px]'>
          
-         <h2 className='font-rowdies text-[32px] leading-[39.74px] text-center tracking-[0.015em] not-italic font-normal text-textPrimary  md:leading-[40px] lg:w-[400px]'>{servicio.titulo}</h2>
+         <h2 className='font-rowdies text-[32px] leading-[39.74px] text-center tracking-[0.015em] not-italic font-normal text-white2 md:text-textPrimary  md:leading-[40px] lg:w-[400px]'>{servicio.titulo}</h2>
          <article className='relative w-[235px] h-[206px] md:w-[317px] md:h-[293px] mb-[30px] xl:w-[400px] xl:h-[400px]'>
          <Image className={`rounded-[10px] ${index % 2===0?'lg:rounded-bl-[200px]':'lg:rounded-br-[200px]'}`} alt='imagen contenido' layout='fill' src={servicio.imagen}/>
          </article>
