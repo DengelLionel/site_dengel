@@ -18,7 +18,7 @@ const Contenido = () => {
     </section>
   
     {serviciosSitioWeb?.map((servicio:any,index:any)=>(
-         <section className={`sm:w-[317px] flex flex-wrap items-center justify-center lg:w-full ${index % 2 === 0 ? 'lg:flex lg:flex-row lg:gap-[100px]' : 'lg:flex lg:flex-row-reverse lg:gap-[100px]'} `}  key={index}>
+         <section  key={index}  className={`sm:w-[317px] flex flex-wrap items-center justify-center lg:w-full ${index % 2 === 0 ? 'lg:flex lg:flex-row lg:gap-[100px]' : 'lg:flex lg:flex-row-reverse lg:gap-[100px]'} `} >
          
 
          <section className=' flex flex-col items-center justify-center gap-[30px] lg:w-[400px]'>
