@@ -30,8 +30,8 @@ const Contenido = () => {
          </section>  
 
          <article className=' md:w-[407px] lg:w-[400px]'>
-         {servicio.listas?.map((lista:any)=>(
-            <li className='text-textPrimary text-[16px] font-roboto tracking-[0.015em] font-normal'>{lista.lista}</li>
+         {servicio.listas?.map((lista:any,index:any)=>(
+            <li key={index} className='text-textPrimary text-[16px] font-roboto tracking-[0.015em] font-normal'>{lista.lista}</li>
          ))}
          
          <Link href={servicio.cotizar} className='bg-yellow1 mt-[30px] flex items-center justify-center text-blue1 font-roboto font-extrabold rounded-[15px] w-[327px] h-[50px] shadow-shadow3 md:w-[424px] lg:w-full  lg:w-[280px] lg:transition-all lg:duration-[500ms] lg:hover:bg-yellow3 lg:hover:text-azul4'>COTIZAR</Link>
