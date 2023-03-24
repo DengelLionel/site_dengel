@@ -10,7 +10,7 @@ import IconShopify from "../components/Icons/IconShopify"
 
 export const subLinks=[
     {id:1,text:"Páginas web personalizadas",href:"/webpersonalizada"},
-    {id:2,text:"Tiendas virtuales",href:"#"},
+    {id:2,text:"Tiendas virtuales",href:"/ecommerce"},
     {id:3,text:"Aplicaciones web personalizadas",href:"#"},
     {id:4,text:"Asesoramiento personalizado",href:"#"},
     {id:5,text:"Sistemas web",href:"#"},
@@ -198,4 +198,16 @@ export const serviciosSitioWeb=[
     cotizar:"https://wa.me/+51961151921?text=Hola%20quiero%20cotización%20de%20página%20web%20landing%20page"
 },
 
+]
+
+export const serviciosEcommerce=[
+    {titulo:"Diseño y desarrollo  ",cotizar:"https://wa.me/+51961151921?text=Hola%20quiero%20cotización%20de%20diseño%20y%20desarrollo%20Ecommerce",descripcion:"Puedo ayudarte con todo lo relacionado a tu tienda en línea, desde crearla desde cero, personalizar plataformas como Shopify, integrar pasarelas de pago y funcionalidades de gestión de inventario y pedidos. ¡Hablemos de tus necesidades y trabajemos juntos!",imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1679615808/sitioweb/hombre-adulto-haciendo-compras-linea-dia-ocio-casa-joven-comprando-ropa-online_uuxpql.jpg"},
+    {titulo:"Optimización de tu tienda",cotizar:"https://wa.me/+51961151921?text=Hola%20quiero%20cotización%20de%20optimización%20de%20mi%20tienda",descripcion:"Puedo optimizar la velocidad de carga, mejorar la experiencia de usuario y seguridad de tu tienda en línea para una mejor conversión de ventas. ¡Trabajemos juntos para lograrlo!",imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1679615808/sitioweb/cajas-carton-inscripcion-cyber-monday-manos-joven_ydujji.jpg"},
+    {titulo:"Mantenimiento y soporte",cotizar:"https://wa.me/+51961151921?text=Hola%20quiero%20cotización%20de%20mantenimiento%20y%20soporte%20de%20mi%20tienda%20shopify",descripcion:"¡Hola! Me alegra saber que quieras mejorar en diseño a tu tienda Shopify. Si necesitas agregar algún elemento adicional, como un botón de WhatsApp u otra modificación, estaré encantado de ayudarte en lo que necesites. ¡No dudes en contar conmigo!",imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1679615808/sitioweb/tecnologia-desarrollo-aplicaciones-comercio-electronico-inalambrico_rz0aoy.jpg"},
+
+]
+export const empresasColabore=[
+    {imagen:"",link:"",video:""},
+    {imagen:"",link:"",video:""},
+    {imagen:"",link:"",video:""},
 ]

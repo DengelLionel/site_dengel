@@ -16,9 +16,8 @@ import LinkNavLittleDesktop from "../../components/LinkNavLittleDesktop"
 import FooterContent from '../../components/FooterContent'
 import IconLogo from '../../components/Icons/IconLogo'
 import SubNav from '../../components/SubNav'
-import ImagenWebPersonalizada from '../../components/webpersonalizada/ImagenWebPersonalizada'
-import ImagenWebPersonalizadaSmall from '../../components/webpersonalizada/ImagenWebPersonalizadaSmall'
-import Contenido from '../../components/webpersonalizada/Contenido'
+import Contenido from '../../components/ecommerce'
+import Image from 'next/legacy/image'
 
 
 export default function Home() {
@@ -72,24 +71,25 @@ colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
      <section className='lg:w-full lg:flex lg:flex-row 2xl:justify-center 2xl:items-center'>
       <section>
  
-     <h1 className='text-[36px] font-rowdies font-normal text-center text-textPrimary2 p-[16px] leading-[45px] tracking-[0.015em] mb-[12px] sm:text-[40px] sm:w-[500px] md:text-[48px] md:w-[610px] md:p-[20px] md:leading-[60px] lg:ml-[20px] lg:mb-[12px] lg:text-left xl:text-[55px] xl:w-[710px] xl:p-[32px] xl:leading-[60px]'>Desarrollo de sitios webs personalizados</h1>
+     <h1 className='text-[36px] font-rowdies font-normal text-center text-textPrimary2 p-[16px] leading-[45px] tracking-[0.015em] mb-[12px] sm:text-[40px] sm:w-[500px] md:text-[48px] md:w-[610px] md:p-[20px] md:leading-[60px] lg:ml-[20px] lg:mb-[12px] lg:text-left xl:text-[55px] xl:w-[710px] xl:p-[32px] xl:leading-[60px]'>¿Estás listo para dar el salto al mundo del comercio electrónico?</h1>
     
 
      
      <article className='p-[16px] font-roboto text-center font-medium text-[24px] leading-[35px] tracking-[0.015em] text-textPrimary sm:text-[26px] md:flex md:justify-center md:items-center md:leading-[50px] md:p-[20px] lg:items-center lg:leading-[40px] lg:font-bold xl:ml-[32px] xl:mb-[32px]'>
-      <p className=' lg:w-[560px]'>Landing Page, blogs y sitios informativos</p>
+      <p className=' lg:w-[560px]'>Nuestros servicios te ayudará a tener tu tienda en línea de forma fácil y rápida. Agenda una reunión virtual conmigo y comienza a vender tus productos en internet</p>
      </article>
      <article className='flex justify-center items-center p-[16px] mt-[21px] mb-[21px] lg:ml-[20px] xl:ml-[32px] xl:mt-0 '>
-     <button className='font-roboto font-bold text-[20px] text-center bg-yellow1 text-azul3 pt-[10px] pb-[10px] rounded-tl-[10px] rounded-tr-[10px] rounded-br-[10px] rounded-bl-[10px] w-[200px] sm:text-[26px] sm:w-[292px] lg:w-[280px] lg:transition-all lg:duration-[500ms] lg:hover:bg-yellow3 lg:hover:text-azul4 xl:w-[300px] '>Quiero cotización ahora!!</button>
+     <button className='font-roboto font-bold text-[20px] text-center bg-yellow1 text-azul3 pt-[10px] pb-[10px] rounded-tl-[10px] rounded-tr-[10px] rounded-br-[10px] rounded-bl-[10px] w-[200px] sm:text-[26px] sm:w-[292px] lg:w-[280px] lg:transition-all lg:duration-[500ms] lg:hover:bg-yellow3 lg:hover:text-azul4 xl:w-[300px] '>Agendar reunión </button>
      </article>
     
      </section>
-     <article className='hidden lg:flex lg:relative lg:-left-[150px] xl:-left-0'>
-     <ImagenWebPersonalizada/>
+     <article className='hidden lg:flex lg:relative lg:w-[400px] lg:h-[386px] lg:-left-[150px] xl:-left-0'>
+     <Image layout='fill' src="https://res.cloudinary.com/darps1cta/image/upload/v1679613044/sitioweb/ecomerc_xtd6gq.png"/>
      </article>
      </section>
-     <article className='pl-[16px] pr-[16px] pb-[50px] sm:flex sm:justify-center  md:pb-[80px] lg:hidden'>
-     <ImagenWebPersonalizadaSmall/>
+     <article className='relative pl-[16px] w-[200px] h-[193px] pr-[16px] pb-[50px] sm:flex sm:justify-center  md:pb-[80px] lg:hidden'>
+     <Image layout='fill' src="https://res.cloudinary.com/darps1cta/image/upload/v1679613044/sitioweb/ecomerc_xtd6gq.png"/>
+    
      </article>
      </section>
         <Contenido/>
