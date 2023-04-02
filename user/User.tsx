@@ -207,7 +207,7 @@ export const serviciosEcommerce=[
 
 ]
 export const empresasColabore=[
-    {imagen:"",link:"",video:""},
-    {imagen:"",link:"",video:""},
-    {imagen:"",link:"",video:""},
+    {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1680395752/sitioweb/mejorado1_u9gjx1.png",link:"https://buildperu.com/",video:"",titulo:"Build Perú"},
+    {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1680395751/sitioweb/mejorado2_ey990j.png",link:"https://pecaditosfire.com/",video:"",titulo:"Pacaditos Fire "},
+    {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1680395752/sitioweb/mejorado3_pvbhlw.png",link:"https://holadeaf.com/",video:"",titulo:"Hola Deaf"},
 ]

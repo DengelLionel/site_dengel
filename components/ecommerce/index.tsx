@@ -5,6 +5,7 @@ import Image from 'next/legacy/image'
 import {serviciosEcommerce, serviciosSitioWeb} from "../../user/User"
 import Link from "next/link"
 import Ventajas from './Ventajas' 
+import EmpresasColabore from './EmpresasColabore'
 const Contenido = () => {
   return (
     <ContenedorGenearal >
@@ -34,7 +35,7 @@ const Contenido = () => {
          </section>
     ))}
      <Titulo titulo='Empresas con las que colaboré'/>
-
+      <EmpresasColabore/>
    <Titulo titulo='¿Para quién es este servicio?'/>
    <section className='flex flex-wrap gap-[30px] items-center justify-center lg:flex-row lg:gap-[69px]'>
    <article className='relative w-[190px] h-[190px] lg:w-[400px] lg:h-[400px]'>
@@ -44,7 +45,7 @@ const Contenido = () => {
 Quienes deseen mostrar la calidad de su producto de manera más profesional utilizando una comunicación directa con fines de conversión, a través de una página de ventas, página de gracias u otra página que traiga clientes a su negocio.</p>
 </section>
 <Titulo titulo='¿Cuáles son las ventajas?'/>
-<section className='flex flex-col gap-[16px] md:flex-row md:gap-[130px]'>
+<section className='flex flex-col gap-[16px] md:flex-row md:gap-[20px]'>
  <Ventajas titulo="Diseño personalizado" descripcion="Diseño profesional, responsive (compatible con dispositivos móviles) y personalizado, dando protagonismo a tu página y aumentando el rendimiento."/>
 <Ventajas titulo="Optimizado" descripcion="Infraestructura con optimización de caché, reducción de tamaño de imágen e integración de CDN. Para aumentar el rendimiento de la página y las conversiones."/>
 <Ventajas titulo="Estructura Profesional " descripcion="Diseño y codificación con buenas practicas para tu satisfacción."/>     

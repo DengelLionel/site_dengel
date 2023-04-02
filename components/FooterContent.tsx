@@ -1,5 +1,5 @@
 import IconEmail from "./Icons/IconEmail"
-import ContenedorDatosFooter from "./ContenedorDatosFooter"
+
 import IconWhatsapp from "./Icons/IconWhatsapp"
 import IconTelegram from "./Icons/IconTelegram"
 import IconInstagram from "./Icons/IconInstagram"
@@ -16,16 +16,16 @@ const FooterContent = () => {
     
     
     <section className=" lg:flex lg:flex-row lg:gap-[50px]"> 
-    <ContenedorDatosFooter>
+
     <IconLogomas1024/>
-    </ContenedorDatosFooter>
-            <ContenedorDatosFooter>
+
+
             <Link href="mailto:denriveracajincho@gmail.com?Subject=Quiero%20contactarme%20contigo%20Dengel" aria-label="Redirecciona a gmail" target="_blank"><IconEmail/></Link>
           {/*   <Link href="https://t.me/dengeldev"  aria-label="Redirecciona a telegram" target="_blank"><IconTelegram/></Link> */}
             {/* <Link href="https://wa.me/+51977766744?text=Hola%20quiero%20más%20einformación" target="_blank"  aria-label="Redirecciona a whatsapp"> <IconWhatsapp/></Link>   */}    
            <Link href="https://www.instagram.com/dengelrivera.dev/" target="_blank"  aria-label="Redirecciona a instagram"><IconInstagram/> </Link>
             <Link href="https://www.tiktok.com/@dengel_lionel?is_from_webapp=1&sender_device=pc"  aria-label="Redirecciona a tiktok" target="_blank"><IconTiktok/></Link>
-            </ContenedorDatosFooter>
+  
          
            </section>
            
