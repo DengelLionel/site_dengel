@@ -31,6 +31,12 @@ export default function Home() {
 const[openMenu,setOpenMenu]=useState(false)
 const[openMenuDesktop,setOpenMenuDesktop]=useState(false)
 const [openSubNav,setOpenSubNav]=useState(false)
+const Scroll=(elemento:any)=>{
+  const destino=document.querySelector(elemento)
+  destino.scrollIntoView({
+    behavior:'smooth'
+  })
+}
   return (
 
     <div>
@@ -85,7 +91,7 @@ colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
       <p className=' lg:w-[560px]'>Maximiza tus resultados conmigo</p>
      </article>
      <article className='flex justify-center items-center p-[16px] mt-[21px] mb-[21px] lg:ml-[20px] xl:ml-[32px] xl:mt-0 '>
-     <button className='font-roboto font-bold text-[20px] text-center bg-yellow1 text-azul3 pt-[10px] pb-[10px] rounded-tl-[10px] rounded-tr-[10px] rounded-br-[10px] rounded-bl-[10px] w-[200px] sm:text-[26px] sm:w-[292px] lg:w-[280px] lg:transition-all lg:duration-[500ms] lg:hover:bg-yellow3 lg:hover:text-azul4 xl:w-[300px] '>Conoce más</button>
+     <button onClick={()=>Scroll("#ofrezco")} className='font-roboto font-bold text-[20px] text-center bg-yellow1 text-azul3 pt-[10px] pb-[10px] rounded-tl-[10px] rounded-tr-[10px] rounded-br-[10px] rounded-bl-[10px] w-[200px] sm:text-[26px] sm:w-[292px] lg:w-[280px] lg:transition-all lg:duration-[500ms] lg:hover:bg-yellow3 lg:hover:text-azul4 xl:w-[300px] '>Conoce más</button>
      </article>
     
      </section>

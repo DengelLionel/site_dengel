@@ -7,8 +7,8 @@ const MisServicios = () => {
    <ContainerGeneral>
     <Titulo titulo="Mis servicios más Solicitados"/>
     <section className={service.container}>
-    <Card titulo='Páginas web personalizadas' image='https://res.cloudinary.com/darps1cta/image/upload/v1676390679/sitioweb/port_zpstv9.jpg'/>
-    <Card titulo='Tiendas virtuales - ecommerce' image='/tiendavirtual2.svg'/>
+    <Card titulo='Páginas web personalizadas' image='https://res.cloudinary.com/darps1cta/image/upload/v1679362482/sitioweb/mejorsa_ac00jd.png'/>
+    <Card titulo='Tiendas virtuales - ecommerce' image='https://res.cloudinary.com/darps1cta/image/upload/v1679615808/sitioweb/hombre-adulto-haciendo-compras-linea-dia-ocio-casa-joven-comprando-ropa-online_uuxpql.jpg'/>
     </section>
    </ContainerGeneral>
   )
