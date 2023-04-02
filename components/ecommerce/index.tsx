@@ -41,8 +41,7 @@ const Contenido = () => {
    <article className='relative w-[190px] h-[190px] lg:w-[400px] lg:h-[400px]'>
     <Image alt="¿Para quién es este servicio?" className='rounded-full' layout='fill'  src="https://res.cloudinary.com/darps1cta/image/upload/v1679434686/sitioweb/Lionel_RC_landing_page_de_venta_de_cursos_25712732-179e-4475-8c8d-464096c86ae3_uuw6fx.png"/>
     </article>
-    <p className='font-roboto text-[16px] font-normal tracking-[0.015em] text-textPrimary sm:w-[420px] md:w-[463px] lg:w-[397px] '>Para quienes quieran exponer su producto o empresa digital de forma comercial con el fin de vender y atraer clientes.
-Quienes deseen mostrar la calidad de su producto de manera más profesional utilizando una comunicación directa con fines de conversión, a través de una página de ventas, página de gracias u otra página que traiga clientes a su negocio.</p>
+    <p className='font-roboto text-[16px] font-normal tracking-[0.015em] text-textPrimary sm:w-[420px] md:w-[463px] lg:w-[397px] text-center '>¿Quieres vender más y atraer clientes a tu negocio en línea? Ofrecemos diseño web, desarrollo web y ayuda o desarrollo Shopify para crear una presencia en línea profesional y efectiva. Creamos páginas de ventas y otras páginas para aumentar tus ventas y llevar clientes a tu negocio. Contáctanos hoy mismo para llevar tu negocio al siguiente nivel en línea.</p>
 </section>
 <Titulo titulo='¿Cuáles son las ventajas?'/>
 <section className='flex flex-col gap-[16px] md:flex-row md:gap-[20px]'>
