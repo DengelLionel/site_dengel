@@ -61,14 +61,14 @@ colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
         <LinkNav Icon={ <IconModule/>} text={" Mis servicios integrales"} OnClick={()=>setOpenSubNav(true)}/>
         <LinkNav Icon={ <IconJob/>} text={" Mi repositorio de proyectos"} hreff={"/portafolio"}/>
         <LinkNav Icon={ <IconBrochure/>} text={"Mi brochure"} hreff={"#"}/>
-        <LinkNav Icon={ <IconBlog/>} text={"Mi brog"} hreff={"#"}/>
+        <LinkNav Icon={ <IconBlog/>} text={"Mi brog"} hreff={"/miblog"}/>
         <LinkNav Icon={ <IconPlantilla/>} text={"Mis plantillas web premium"} hreff={"#"}/>
     </NavMobileTypeTwo>} 
       logo={<Link href='/' aria-label="te envia home (mi punto de partida)"><IconLogo/></Link>} LinksNavDesktop={<NavDesktop/>} colorHeader='bg-primary ' openMenuDesktop={openMenuDesktop}  openMenu={openMenu} 
       
       navDesktopLittle={<NavDesktopTypeTwo colorNavLittleDesktop={"bg-whiteTransparent3 backdrop-blur"} openMenuDesktop={openMenuDesktop}>
       <LinkNavLittleDesktop href="#" Icon={<IconBrochure/>} text="Mi brochure"/>
-      <LinkNavLittleDesktop href="#" Icon={<IconBlog/>} text="Mi blog"/>
+      <LinkNavLittleDesktop href="/miblog" Icon={<IconBlog/>} text="Mi blog"/>
       <LinkNavLittleDesktop href="#" Icon={<IconPlantilla/>} text="Mis plantillas web premium"/>
   </NavDesktopTypeTwo>} 
   setOpenMenu={()=>{setOpenMenu(!openMenu)}} 
