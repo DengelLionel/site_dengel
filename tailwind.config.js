@@ -22,6 +22,8 @@ module.exports = {
         "whiteTransparent":"rgba(255,255,255,.9)",
         "whiteTransparent2":"rgba(155, 164, 231, 0.5)",
         "gray1":"#8E8E8E",
+        "gray2":"#C7C6D3",
+        "gray3":"#D9D9D9",
         "whiteTransparent3":"rgba(15, 14, 71, 0.3)",
         "yellow1":"#F5BB19",
         "blue1":"#000814",

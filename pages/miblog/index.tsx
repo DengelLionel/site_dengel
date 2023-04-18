@@ -64,7 +64,7 @@ colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
 
 
 
-      <main className='bg-gradient-to-t w-full h-full from-secundary2 via-secundary3 to-secundary3 pb-[40px] ' >
+      <main className='bg-white2 w-full h-full  pb-[40px] md:pl-[20px] md:pt-[49px]  md:pr-[20px]' >
     
         <MiBlogBody/>
      

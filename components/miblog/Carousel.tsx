@@ -8,7 +8,7 @@ const CarouselBlog = () => {
         <section className='relative w-full h-[300px]  '>
         <Image layout='fill' src='https://res.cloudinary.com/darps1cta/image/upload/v1679615808/sitioweb/hombre-adulto-haciendo-compras-linea-dia-ocio-casa-joven-comprando-ropa-online_uuxpql.jpg'/>
         </section>
-        <section className='relative w-full h-[300px] '>
+        <section className='relative w-full h-[300px]'>
         <Image layout='fill' src='https://res.cloudinary.com/darps1cta/image/upload/v1679615808/sitioweb/tecnologia-desarrollo-aplicaciones-comercio-electronico-inalambrico_rz0aoy.jpg'/>
         </section>
 
