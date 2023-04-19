@@ -211,3 +211,32 @@ export const empresasColabore=[
     {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1680395751/sitioweb/mejorado2_ey990j.png",link:"https://pecaditosfire.com/",video:"",titulo:"Pacaditos Fire "},
     {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1680395752/sitioweb/mejorado3_pvbhlw.png",link:"https://holadeaf.com/",video:"",titulo:"Hola Deaf"},
 ]
+export const publicaciones=[
+    {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1679615808/sitioweb/hombre-adulto-haciendo-compras-linea-dia-ocio-casa-joven-comprando-ropa-online_uuxpql.jpg",
+    categoria:"negociacion",
+titulo:"Proceso de negociación: Domina y cierra mas tratos",
+url:'proceso-nego',
+parrafo:'Si eres emprendedor o empresario quizá soñaste con ser tu propio jefe para tomar las decisiones. Sin embargo, no todo se trata de intuición, y si quieres que tu proyecto prospere, debes tener en cuenta la gestión de riesgos empresariales. Esto se traduce como la incertidumbre de lo que sucederá luego de tomar una decisión sobre el futuro del negocio.'},
+{imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1679615808/sitioweb/hombre-adulto-haciendo-compras-linea-dia-ocio-casa-joven-comprando-ropa-online_uuxpql.jpg",
+categoria:"negociacion2",
+titulo:"Proceso de negociación: Domina y cierra mas tratos",
+url:'proceso-nego2'},
+{imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1679615808/sitioweb/hombre-adulto-haciendo-compras-linea-dia-ocio-casa-joven-comprando-ropa-online_uuxpql.jpg",
+categoria:"negociacion4",
+titulo:"Proceso de negociación: Domina y cierra mas tratos",
+url:'proceso-nego3'},
+{imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1679615808/sitioweb/hombre-adulto-haciendo-compras-linea-dia-ocio-casa-joven-comprando-ropa-online_uuxpql.jpg",
+categoria:"negociacion",
+titulo:"Proceso de negociación: Domina y cierra mas tratos",
+url:'proceso-nego4'},
+]
+export const publicaciones_populares=[
+    {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1679615808/sitioweb/hombre-adulto-haciendo-compras-linea-dia-ocio-casa-joven-comprando-ropa-online_uuxpql.jpg",
+    categoria:"negociacion4",
+    titulo:"Proceso de negociación: Domina y cierra mas tratos",
+    url:'proceso-nego3'},
+    {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1679615808/sitioweb/hombre-adulto-haciendo-compras-linea-dia-ocio-casa-joven-comprando-ropa-online_uuxpql.jpg",
+    categoria:"negociacion",
+    titulo:"Proceso de negociación: Domina y cierra mas tratos",
+    url:'proceso-nego4'}, 
+]

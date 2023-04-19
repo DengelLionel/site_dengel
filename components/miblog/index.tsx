@@ -1,7 +1,9 @@
 import React from 'react'
 import CarouselBlog from './Carousel'
-import Image from 'next/legacy/image'
+import PubliPopular from './PubliPopular'
 import Card from './Card'
+import { publicaciones } from '../../user/User'
+import { publicaciones_populares } from '../../user/User'
 const MiBlogBody = () => {
   return (
     <div>
@@ -11,36 +13,35 @@ const MiBlogBody = () => {
         <CarouselBlog/>
         </div>
         
-        <div className='md:w-[50%] md:h-[452px] md:bg-white2 lg:w-auto lg:h-auto'>
+        <div className=' md:w-[50%] md:h-[452px] md:bg-white2 lg:w-auto lg:h-auto '>
         
           <h3 className='bg-yellow2 text-center flex justify-center items-center text-azul2 md:text-center font-rowdies h-[35px] md:w-[218px] md:h-[55px] md:mb-[22px]'> Publicaciones más populares</h3>
-          <div className='p-[16px] md:hidden'>
-          <section className='bg-gray2 w-full h-full rounded-[5px] flex flex-row gap-[14px] '>
-            <div className='relative w-[112px] h-[85px]'>
-            <Image className='rounded-tl-[5px] rounded-bl-[5px]' layout='fill' alt={`image`} src={`https://res.cloudinary.com/darps1cta/image/upload/v1679615808/sitioweb/hombre-adulto-haciendo-compras-linea-dia-ocio-casa-joven-comprando-ropa-online_uuxpql.jpg`}/>
-            </div>
-            <article className='flex justify-center items-center text-azul2 text-left font-roboto font-normal'>
-            ¿Qué es un precio psicológico? Estrategias y ejemplos
-            </article>
-          </section>
-          </div>
-        
-          <div className='hidden md:flex md:flex-col md:gap-[15px]'>
-          <section className='md:bg-gray2 md:w-full  md:h-[94px] md:rounded-[5px] md:flex md:flex-row md:gap-[16px] lg:w-[385px]'>
-          <div className='relative w-[112px] h-full'>
-            <Image className='rounded-tl-[5px] rounded-bl-[5px]' layout='fill' alt={`image`} src={`https://res.cloudinary.com/darps1cta/image/upload/v1679615808/sitioweb/hombre-adulto-haciendo-compras-linea-dia-ocio-casa-joven-comprando-ropa-online_uuxpql.jpg`}/>
-            </div>
-            <article className='flex justify-center items-center text-azul2 text-left font-roboto font-normal'>
-            ¿Qué es un precio psicológico? Estrategias y ejemplos
-            </article>
-          </section>
+       <div className='flex flex-col mt-[13px] gap-[10px]'>
+       {publicaciones_populares?.map((publi:any,index:any)=>(
+             <PubliPopular
+             key={index}
+             url={publi.url}
+             titulo={publi.titulo}
+             imagen={publi.imagen}
+             />
+          ))}
+       </div>
           
-          </div>
-
+         
         </div>
         </section>
-        <div className='p-[16px]'>
-        <Card/>
+        <div className='p-[16px] flex flex-wrap w-full justify-center items-center md:flex md:flex-wrap md:w-full md:gap-[20px] md:justify-center '>
+          {publicaciones?.map((publicacion:any,index:any)=>(
+                <Card 
+                key={index}
+                keyy={index}
+                url={publicacion.url}
+                imagen={publicacion.imagen}
+                categoria={publicacion.categoria}
+                titulo={publicacion.titulo}
+                />
+          ))}
+      
         </div>
       
     </div>

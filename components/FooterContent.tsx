@@ -41,7 +41,7 @@ const FooterContent = () => {
     </div>
    <div className="flex flex-col justify-center">
    <h3 className="font-rowdies font-light text-yellow1 mb-[11px]">Mis servicios</h3>
-   <section className="grid grid-cols-[repeat(1,auto)] transition-all duration-[500ms] lg:gap-[10px]">
+   <section className="grid grid-cols-[repeat(1,auto)] gap-[10px] transition-all duration-[500ms] lg:gap-[10px]">
     {subLinks?.map((sublink:any,index:any)=>(
       <Link className="text-white3 font-roboto font-medium lg:hover:text-yellow1" key={index} href={sublink.href} target="_blank">{sublink.text}</Link>
     ))} 
@@ -51,7 +51,7 @@ const FooterContent = () => {
            </section>
 
            
-            <section className='font-roboto font-light text-[16px] text-white2 text-center tracking-[0.015em] flex flex-col items-center gap-[18px] transition-all duration-[500ms] '>
+            <section className='font-roboto font-light text-[16px] text-white2 text-center tracking-[0.015em] flex flex-col items-center gap-[18px] transition-all duration-[500ms] mt-[25px] '>
            
            <Link className="text-white3 lg:hover:text-yellow1" href="#" target="_blank">Política de privacidad</Link>
            <Link className="text-white3 lg:hover:text-yellow1" href="#" target="_blank">Terminos y condiciones</Link>
