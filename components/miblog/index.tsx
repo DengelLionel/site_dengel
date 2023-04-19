@@ -2,8 +2,8 @@ import React from 'react'
 import CarouselBlog from './Carousel'
 import PubliPopular from './PubliPopular'
 import Card from './Card'
-import { publicaciones } from '../../user/User'
-import { publicaciones_populares } from '../../user/User'
+import { publicaciones } from '../../user/PublicacionesBlog'
+import { publicaciones_populares } from '../../user/PublicacionesBlog'
 const MiBlogBody = () => {
   return (
     <div>

@@ -17,7 +17,7 @@ import FooterContent from '../../components/FooterContent'
 import IconLogo from '../../components/Icons/IconLogo'
 import SubNav from '../../components/SubNav'
 import { useRouter } from 'next/router'
-import { publicaciones } from '../../user/User'
+import { publicaciones } from '../../user/PublicacionesBlog'
 import Card from '../../components/miblog/Card'
 
 const Publicacion=()=> {
