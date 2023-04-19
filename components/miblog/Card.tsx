@@ -18,7 +18,7 @@ const Card = ({imagen,categoria,titulo,keyy,url}:card) => {
         </div>
         <div className='pr-[19px] pt-[8px] pb-[19px] pl-[19px] '>
             <h3 className='font-roboto font-medium text-azul2 text-[14px]'>{categoria}</h3>
-            <h1 className='font-roboto font-semibold text-azul2 text-[24px]'>{titulo} {`${keyy}`}</h1>
+            <h1 className='font-roboto font-semibold text-azul2 text-[24px]'>{titulo}</h1>
         </div>
     </Link>
   
