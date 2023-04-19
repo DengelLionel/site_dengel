@@ -1,15 +1,15 @@
 import React from 'react'
 import { useEffect,useState } from 'react'
 import ReactMarkdown  from 'react-markdown'
-const Contenido_Politica = ({markdown}:any) => {
+const Contenido_Politica = ({politica}:any) => {
     const [contenido,setContenido]=useState<any>("")
     useEffect(()=>{
-        fetch(`/contenido/${markdown}`)
+        fetch(`/contenido/${politica&&politica}`)
         .then(response=>(response.text()))
         .then(data=>setContenido(data))
     },[])
   return (
-    <div>  <ReactMarkdown children={contenido}/></div>
+    <div>  <ReactMarkdown children={contenido&&contenido}/></div>
   )
 }
 

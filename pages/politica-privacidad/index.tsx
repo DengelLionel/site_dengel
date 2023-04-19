@@ -64,7 +64,7 @@ colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
 
       <main className='bg-white2 w-full h-full  pb-[40px] md:pl-[20px] md:pt-[49px]  md:pr-[20px] md:pl-[50px] md:pr-[50px]' >
     
-        <Contenido_Politica markdown='politica_privacidad.md'/>
+        <Contenido_Politica politica='politica_privacidad.md'/>
      
       </main>
       <footer className='bg-azul2 w-full h-auto p-[16px]'>

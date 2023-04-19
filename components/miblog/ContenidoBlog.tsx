@@ -1,16 +1,16 @@
 import React from 'react'
 import { useEffect,useState } from 'react'
 import ReactMarkdown  from 'react-markdown'
-const ContenidoBlog = ({markdown}:any) => {
+const ContenidoBlog = ({content}:any) => {
     const [contenido,setContenido]=useState<any>("")
     useEffect(()=>{
-        fetch(`/contenido/${markdown}`)
+        fetch(`/contenido/${content&&content}`)
         .then(response=>(response.text()))
         .then(data=>setContenido(data))
     },[])
   return (
     <div>
-        <ReactMarkdown children={contenido}/>
+        <ReactMarkdown children={contenido&&contenido}/>
     </div>
   )
 }
