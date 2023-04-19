@@ -10,7 +10,7 @@ const ContenidoBlog = ({content}:any) => {
     },[])
   return (
     <div>
-        <ReactMarkdown children={contenido&&contenido}/>
+        <ReactMarkdown>{contenido&&contenido}</ReactMarkdown>
     </div>
   )
 }
