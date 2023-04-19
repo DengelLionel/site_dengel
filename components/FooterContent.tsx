@@ -53,8 +53,8 @@ const FooterContent = () => {
            
             <section className='font-roboto font-light text-[16px] text-white2 text-center tracking-[0.015em] flex flex-col items-center gap-[18px] transition-all duration-[500ms] mt-[25px] '>
            
-           <Link className="text-white3 lg:hover:text-yellow1" href="#" target="_blank">Política de privacidad</Link>
-           <Link className="text-white3 lg:hover:text-yellow1" href="#" target="_blank">Terminos y condiciones</Link>
+           <Link className="text-white3 lg:hover:text-yellow1" href="/politica-privacidad" target="_blank">Política de privacidad</Link>
+           <Link className="text-white3 lg:hover:text-yellow1" href="/terminos-condiciones" target="_blank">Terminos y condiciones</Link>
            <span className="text-white3">Diseño + Código © 2023</span>
            <span className="text-white3">Sitio hecho con react js, next js</span>
             

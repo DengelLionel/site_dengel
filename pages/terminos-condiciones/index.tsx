@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import MiBlogBody from '../../components/miblog'
 import {HeaderTwo,NavDesktopTypeTwo,NavMobileTypeTwo} from "componentes-dengel" 
 import { useState } from 'react'
 import "componentes-dengel/dist/style.css" 
@@ -10,13 +9,12 @@ import IconHome from '../../components/Icons/IconHome'
 import IconJob from '../../components/Icons/IconJob'
 import IconBlog from '../../components/Icons/IconBlog'
 import IconBrochure from '../../components/Icons/IconBrochure'
-import IconPlantilla from '../../components/Icons/IconPlantilla'
 import IconModule from '../../components/Icons/IconModule'
 import LinkNavLittleDesktop from "../../components/LinkNavLittleDesktop"
 import FooterContent from '../../components/FooterContent'
 import IconLogo from '../../components/Icons/IconLogo'
 import SubNav from '../../components/SubNav'
-
+import Contenido_Politica from '../../components/Contenido_Politica'
 
 
 export default function Home() {
@@ -64,9 +62,9 @@ colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
 
 
 
-      <main className='bg-white2 w-full h-full  pb-[40px] md:pl-[20px] md:pt-[49px]  md:pr-[20px]' >
+      <main className='bg-white2 w-full h-full  pb-[40px] md:pl-[20px] md:pt-[49px]  md:pr-[20px] md:pl-[50px] md:pr-[50px]' >
     
-        <MiBlogBody/>
+        <Contenido_Politica markdown='terminos_condiciones.md'/>
      
       </main>
       <footer className='bg-azul2 w-full h-auto p-[16px]'>

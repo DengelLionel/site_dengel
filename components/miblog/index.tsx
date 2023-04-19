@@ -9,7 +9,7 @@ const MiBlogBody = () => {
     <div>
         <section className='w-full md:flex md:flex-row md:gap-[30px] lg:w-[800px] lg:justify-center lg:items-center'>
          
-        <div className='md:w-[50%] md:h-[50%] md:bg-blue-500'>
+        <div className='md:w-[50%] md:h-[50%] md:bg-blackTransparent md:backdrop-blur'>
         <CarouselBlog/>
         </div>
         

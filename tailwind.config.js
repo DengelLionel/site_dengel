@@ -47,6 +47,7 @@ module.exports = {
         "linkHover":"rgba(155, 164, 231, 0.5)",
         "orangewhite":"#9D4BAF",
         "morado":"#EEB96D",
+        "blackTransparent":"rgba(0,0,0,.5)"
         
       },
       backgroundImage:{

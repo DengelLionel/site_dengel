@@ -11,9 +11,9 @@ import IconShopify from "../components/Icons/IconShopify"
 export const subLinks=[
     {id:1,text:"Páginas web personalizadas",href:"/webpersonalizada"},
     {id:2,text:"Tiendas virtuales",href:"/ecommerce"},
-    {id:3,text:"Aplicaciones web personalizadas",href:"#"},
+   /*  {id:3,text:"Aplicaciones web personalizadas",href:"#"},
     {id:4,text:"Asesoramiento personalizado",href:"#"},
-    {id:5,text:"Sistemas web",href:"#"},
+    {id:5,text:"Sistemas web",href:"#"}, */
 ]
 
 export const proyectExperience=[
