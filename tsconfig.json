@@ -16,6 +16,6 @@
     "incremental": true,
     "types":["node","sitemap"]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next-sitemap.config.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next-sitemap.config.js"],
   "exclude": ["node_modules"]
 }
