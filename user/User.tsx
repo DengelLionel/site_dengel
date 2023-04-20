@@ -24,7 +24,7 @@ export const proyectExperience=[
         descripcion:"Es una landing page hecha en codigo js | next js | react js",
         github:"https://github.com/DengelLionel/landingpage1",
         sitioweb:"https://landingpage1-zeta.vercel.app/",
-        video:"https://www.youtube.com/watch?v=7093qsQ0fUI",
+        video:"https://www.youtube.com/embed/7093qsQ0fUI",
         state:false,
         imagenesPresentacion:{
             mobil:"",
@@ -40,7 +40,7 @@ export const proyectExperience=[
         descripcion:"Es una tienda virtual hecha en shopify",
         github:"#",
         sitioweb:"https://buildperu.com/",
-        video:"https://www.youtube.com/watch?v=L8KjU597zuc",
+        video:"https://www.youtube.com/embed/L8KjU597zuc",
         state:false,
         imagenesPresentacion:{
             mobil:"",
@@ -55,14 +55,14 @@ export const proyectExperience=[
         descripcion:"Es pequeño sistema de formulario hecho en js | laravel | php",
         github:"https://github.com/DengelLionel/formulario-con-archivos-pdf-e-imagenes",
         sitioweb:"#",
-        video:"https://www.youtube.com/watch?v=75VTQmeim6s",
+        video:"https://www.youtube.com/embed/75VTQmeim6s",
         state:false,
-        imagenesPresentacion:{
+        imagenesPresentacion:{ 
             mobil:"",
             tablet:"",
             desktop:""
             }
-    },
+    }, 
     {
         id:2,
         titulo:"Tienda virtual shopify",
@@ -70,7 +70,7 @@ export const proyectExperience=[
         descripcion:"Es una tienda virtual hecha en shopify",
         github:"#",
         sitioweb:"https://holadeaf.com/",
-        video:"https://www.youtube.com/watch?v=ZPDVVrTLlpA",
+        video:"https://www.youtube.com/embed/ZPDVVrTLlpA",
         state:false,
         imagenesPresentacion:{
             mobil:"",
