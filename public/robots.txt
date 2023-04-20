@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow:/portafolio
+Disallow:/misproyectos
+Disallow:/habilidades
+# Host
+Host: https://dengelriveradev.com
+
+# Sitemaps
+Sitemap: https://dengelriveradev.com/sitemap.xml
