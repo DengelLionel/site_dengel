@@ -24,7 +24,7 @@ export const proyectExperience=[
         descripcion:"Es una landing page hecha en codigo js | next js | react js",
         github:"https://github.com/DengelLionel/landingpage1",
         sitioweb:"https://landingpage1-zeta.vercel.app/",
-        video:"https://www.youtube.com/embed/1lYuci1MAj8",
+        video:"https://youtu.be/7093qsQ0fUI",
         state:false,
         imagenesPresentacion:{
             mobil:"",
