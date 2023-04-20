@@ -1,4 +1,4 @@
-const SITE_URL = process.env.SITE_URL || 'https://dengelriveradev.com';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 
 const NEXT_SSG_FILES = [
@@ -8,18 +8,19 @@ const NEXT_SSG_FILES = [
     '/*_ssgManifest.js$',
     '/*.js$',
   ];
-const config = {
-  siteUrl: SITE_URL,
-  generateRobotsTxt: true,
-  robotsTxtOptions: {
-    policies: [
-      {
-        userAgent: '*',
-        disallow: NEXT_SSG_FILES,
-      },
-    ],
-  },
-};
+  const config = {
+    siteUrl,
+    generateRobotsTxt: true,
+    exclude,
+    robotsTxtOptions: {
+      policies: [
+        {
+          userAgent: '*',
+          disallow: NEXT_SSG_FILES,
+        },
+      ],
+    },
+  };
 
 export default config; 
 
