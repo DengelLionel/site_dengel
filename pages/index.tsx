@@ -44,6 +44,7 @@ const Scroll=(elemento:any)=>{
         <title>Mi punto de partida</title>
         <meta name="description" content="Dengel Rivera dev - Mi punto de partida " />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="noindex,nofollow" />
         <link rel="icon" href="/logodev.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
 

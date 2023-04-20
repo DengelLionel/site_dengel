@@ -31,8 +31,9 @@ const [openSubNav,setOpenSubNav]=useState(false)
     <div>
       <Head>
         <title>Páginas web personalizadas</title>
-        <meta name="description" content="Dengel Rivera dev - Página web personalizada " />
+        <meta name="description" content="Consigue una página web personalizada que se adapte a tus necesidades y objetivos de negocio. Diseñada en WordPress o con código nativo, tu sitio web será único y eficiente en la optimización para motores de búsqueda. Descubre cómo podemos ayudarte a destacar en línea con nuestro servicio de páginas web personalizadas." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="noindex,nofollow" />
         <link rel="icon" href="/logodev.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
 
@@ -51,14 +52,14 @@ colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
         <LinkNav Icon={ <IconJob/>} text={" Mi repositorio de proyectos"} hreff={"/portafolio"}/>
         <LinkNav Icon={ <IconBrochure/>} text={"Mi brochure"} hreff={"#"}/>
         <LinkNav Icon={ <IconBlog/>} text={"Mi brog"} hreff={"/miblog"}/>
-        <LinkNav Icon={ <IconPlantilla/>} text={"Mis plantillas web premium"} hreff={"#"}/>
+    {/*     <LinkNav Icon={ <IconPlantilla/>} text={"Mis plantillas web premium"} hreff={"#"}/> */}
     </NavMobileTypeTwo>} 
       logo={<Link href='/' aria-label="te envia home (mi punto de partida)"><IconLogo/></Link>} LinksNavDesktop={<NavDesktop/>} colorHeader='bg-primary ' openMenuDesktop={openMenuDesktop}  openMenu={openMenu} 
       
       navDesktopLittle={<NavDesktopTypeTwo colorNavLittleDesktop={"bg-whiteTransparent3 backdrop-blur"} openMenuDesktop={openMenuDesktop}>
       <LinkNavLittleDesktop href="#" Icon={<IconBrochure/>} text="Mi brochure"/>
       <LinkNavLittleDesktop href="/miblog" Icon={<IconBlog/>} text="Mi blog"/>
-      <LinkNavLittleDesktop href="#" Icon={<IconPlantilla/>} text="Mis plantillas web premium"/>
+     {/*  <LinkNavLittleDesktop href="#" Icon={<IconPlantilla/>} text="Mis plantillas web premium"/> */}
   </NavDesktopTypeTwo>} 
   setOpenMenu={()=>{setOpenMenu(!openMenu)}} 
   setOpenMenuDesktop={()=>{setOpenMenuDesktop(!openMenuDesktop)}}/>
@@ -80,7 +81,7 @@ colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
       <p className=' lg:w-[560px]'>Landing Page, blogs y sitios informativos</p>
      </article>
      <article className='flex justify-center items-center p-[16px] mt-[21px] mb-[21px] lg:ml-[20px] xl:ml-[32px] xl:mt-0 '>
-     <button className='font-roboto font-bold text-[20px] text-center bg-yellow1 text-azul3 pt-[10px] pb-[10px] rounded-tl-[10px] rounded-tr-[10px] rounded-br-[10px] rounded-bl-[10px] w-[200px] sm:text-[26px] sm:w-[292px] lg:w-[280px] lg:transition-all lg:duration-[500ms] lg:hover:bg-yellow3 lg:hover:text-azul4 xl:w-[300px] '>Quiero cotización ahora!!</button>
+     <Link href="https://wa.me/+51961151921?text=Hola%20quiero%20cotización%20de%20páginas%20web%20personalizadas" target='_blank' className='font-roboto font-bold text-[20px] text-center bg-yellow1 text-azul3 pt-[10px] pb-[10px] rounded-tl-[10px] rounded-tr-[10px] rounded-br-[10px] rounded-bl-[10px] w-[200px] sm:text-[26px] sm:w-[292px] lg:w-[280px] lg:transition-all lg:duration-[500ms] lg:hover:bg-yellow3 lg:hover:text-azul4 xl:w-[300px] '>Quiero cotización ahora!!</Link>
      </article>
     
      </section>

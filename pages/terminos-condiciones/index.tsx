@@ -26,8 +26,8 @@ const [openSubNav,setOpenSubNav]=useState(false)
 
     <div>
       <Head>
-        <title>Mi blog - Dengel Rivera dev</title>
-        <meta name="description" content="Dengel Rivera dev - Página web personalizada " />
+        <title>Terminos y condiciones</title>
+        <meta name="description" content="Terminos y condiciones de Dengelriveradev" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logodev.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>

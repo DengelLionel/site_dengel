@@ -49,8 +49,9 @@ useEffect(()=>{
     <div>
       <Head>
         <title>{publicacion?.[0]?.titulo||publiPopulares?.[0]?.titulo}</title>
-        <meta name="description" content="Dengel Rivera dev - Página web personalizada " />
+        <meta name="description" content={publicacion?.[0]?.description_seo||publiPopulares?.[0]?.description_seo} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="noindex,nofollow" />
         <link rel="icon" href="/logodev.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
 

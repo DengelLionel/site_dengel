@@ -29,7 +29,7 @@ const [openSubNav,setOpenSubNav]=useState(false)
     <div>
       <Head>
         <title>Mi blog - Dengel Rivera dev</title>
-        <meta name="description" content="Dengel Rivera dev - Página web personalizada " />
+        <meta name="description" content="Descubre nuestro blog y mantente actualizado sobre los temas más relevantes en nuestro sector. Encuentra artículos útiles, noticias de actualidad y consejos prácticos para mejorar tu negocio. Únete a nuestra comunidad y aprende con nosotros." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logodev.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>

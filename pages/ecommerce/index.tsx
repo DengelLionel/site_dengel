@@ -29,9 +29,10 @@ const [openSubNav,setOpenSubNav]=useState(false)
 
     <div>
       <Head>
-        <title>Páginas web personalizadas</title>
-        <meta name="description" content="Dengel Rivera dev - Página web personalizada " />
+        <title>Servicios de tiendas virtuales Shopify</title>
+        <meta name="description" content="Con los servicios de tiendas virtuales Shopify, podrás crear una plataforma de comercio electrónico atractiva y fácil de usar. Vende tus productos en línea con una tienda en línea personalizada y optimizada para motores de búsqueda. Descubre cómo Shopify puede ayudarte a impulsar tu negocio en línea." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="noindex,nofollow" />
         <link rel="icon" href="/logodev.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
 
