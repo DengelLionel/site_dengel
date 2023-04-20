@@ -20,7 +20,7 @@ export const proyectExperience=[
     {
         id:1,
         titulo:"Landing Page",
-        imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1676390679/sitioweb/port_zpstv9.jpg",
+        imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1681959315/sitioweb/landing_page_h85jth.png",
         descripcion:"Es una landing page hecha en codigo js | next js | react js",
         github:"https://github.com/DengelLionel/landingpage1",
         sitioweb:"https://landingpage1-zeta.vercel.app/",
