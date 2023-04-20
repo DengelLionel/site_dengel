@@ -35,12 +35,12 @@ export const proyectExperience=[
     },
     {
         id:2,
-        titulo:"Landing Page",
-        imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1676390679/sitioweb/port_zpstv9.jpg",
-        descripcion:"Es una landing page hecha en codigo js | next js | react js",
-        github:"https://github.com/DengelLionel/landingpage1",
-        sitioweb:"https://landingpage1-zeta.vercel.app/",
-        video:"https://www.youtube.com/embed/vfyV2u2D_Z0",
+        titulo:"Tienda virtual shopify",
+        imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1680395752/sitioweb/mejorado1_u9gjx1.png",
+        descripcion:"Es una tienda virtual hecha en shopify",
+        github:"#",
+        sitioweb:"https://buildperu.com/",
+        video:"https://youtu.be/L8KjU597zuc",
         state:false,
         imagenesPresentacion:{
             mobil:"",
@@ -50,20 +50,36 @@ export const proyectExperience=[
     },
     {
         id:3,
-        titulo:"Landing Page",
-        imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1676390679/sitioweb/port_zpstv9.jpg",
-        descripcion:"Es una landing page hecha en codigo js | next js | react js",
-        github:"https://github.com/DengelLionel/landingpage1",
-        sitioweb:"https://landingpage1-zeta.vercel.app/",
-        video:"https://www.youtube.com/embed/vfyV2u2D_Z0",
+        titulo:"FORMULARIOS CON PDF, EXPORTACIÓN EXCEL",
+        imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1681959642/sitioweb/formulario_pfukhv.jpg",
+        descripcion:"Es pequeño sistema de formulario hecho en js | laravel | php",
+        github:"https://github.com/DengelLionel/formulario-con-archivos-pdf-e-imagenes",
+        sitioweb:"#",
+        video:"https://www.youtube.com/watch?v=75VTQmeim6s",
         state:false,
         imagenesPresentacion:{
             mobil:"",
             tablet:"",
             desktop:""
             }
-    }
+    },
+    {
+        id:2,
+        titulo:"Tienda virtual shopify",
+        imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1680395752/sitioweb/mejorado3_pvbhlw.png",
+        descripcion:"Es una tienda virtual hecha en shopify",
+        github:"#",
+        sitioweb:"https://holadeaf.com/",
+        video:"https://youtu.be/ZPDVVrTLlpA",
+        state:false,
+        imagenesPresentacion:{
+            mobil:"",
+            tablet:"",
+            desktop:""
+            }
+    },
 ]
+
 
 
  export const skills:any|undefined|unknown=[
@@ -210,4 +226,5 @@ export const empresasColabore=[
     {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1680395752/sitioweb/mejorado1_u9gjx1.png",link:"https://buildperu.com/",video:"",titulo:"Build Perú"},
     {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1680395751/sitioweb/mejorado2_ey990j.png",link:"https://pecaditosfire.com/",video:"",titulo:"Pacaditos Fire "},
     {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1680395752/sitioweb/mejorado3_pvbhlw.png",link:"https://holadeaf.com/",video:"",titulo:"Hola Deaf"},
+    {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1681959851/sitioweb/OMSHANTI_q3qra2.png",link:"https://omshantiplace.store/",video:"",titulo:"Omshanti place"},
 ]
