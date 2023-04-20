@@ -5,10 +5,10 @@ function generateSiteMap(miblog) {
    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
      <!--We manually set the two URLs we know already-->
      <url>
-       <loc>https://jsonplaceholder.typicode.com</loc>
+       <loc>https://dengelriveradev.com</loc>
      </url>
      <url>
-       <loc>https://jsonplaceholder.typicode.com/guide</loc>
+       <loc>https://dengelriveradev.com/</loc>
      </url>
      ${miblog
        .map(({titulo }) => {
