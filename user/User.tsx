@@ -223,8 +223,12 @@ export const serviciosEcommerce=[
 
 ]
 export const empresasColabore=[
+    {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1685836734/sitioweb/tienda-lo-mejor-en-tendencias_synv5a.png",link:"https://lomejorentendencias.com/",video:"",titulo:"Lo mejor en tendencias"},
+    {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1685836895/sitioweb/tienda-store-mida_rtxfvs.png",link:"https://storemida.com/",video:"",titulo:"Store mida"},
+    {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1685837022/sitioweb/tienda-se%C3%B1or-colecci%C3%B3n_lf9bre.png",link:"https://senorcoleccion.com/",video:"",titulo:"Señor Colección"},
     {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1680395752/sitioweb/mejorado1_u9gjx1.png",link:"https://buildperu.com/",video:"",titulo:"Build Perú"},
     {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1680395751/sitioweb/mejorado2_ey990j.png",link:"https://pecaditosfire.com/",video:"",titulo:"Pacaditos Fire "},
     {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1680395752/sitioweb/mejorado3_pvbhlw.png",link:"https://holadeaf.com/",video:"",titulo:"Hola Deaf"},
     {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1681959851/sitioweb/OMSHANTI_q3qra2.png",link:"https://omshantiplace.store/",video:"",titulo:"Omshanti place"},
+   
 ]

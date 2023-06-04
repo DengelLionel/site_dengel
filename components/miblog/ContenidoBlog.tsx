@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect,useState } from 'react'
 import ReactMarkdown  from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 const ContenidoBlog = ({content}:any) => {
     const [contenido,setContenido]=useState<any>("")
     useEffect(()=>{
@@ -10,7 +11,7 @@ const ContenidoBlog = ({content}:any) => {
     },[])
   return (
     <div>
-        <ReactMarkdown>{contenido&&contenido}</ReactMarkdown>
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>{contenido&&contenido}</ReactMarkdown>
     </div>
   )
 }
