@@ -30,3 +30,16 @@
 html{
   background: linear-gradient(180deg, #1F1E44 0%, #212048 100%);
 }
+
+.memory-game {
+  @apply grid grid-cols-2 gap-4 md:grid-cols-4 gap-[10px] mt-8 mx-auto  w-full p-[16px];
+}
+
+.card {
+  @apply w-[150px] h-[150px] bg-gray-300 rounded cursor-pointer flex items-center justify-center text-lg;
+  background-size: cover;
+}
+
+.flipped {
+  @apply transform rotate-180;
+}

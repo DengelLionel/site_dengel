@@ -1036,6 +1036,18 @@
     "@stripe/react-stripe-js" "^1.7.1"
     "@stripe/stripe-js" "^1.35.0"
 
+"@headlessui/react@^1.7.17":
+  version "1.7.17"
+  resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-1.7.17.tgz#a0ec23af21b527c030967245fd99776aa7352bc6"
+  integrity sha512-4am+tzvkqDSSgiwrsEpGWqgGo9dz8qU5M3znCkC4PgkpY4HcCZzEDEvozltGGGHIKl9jbXbZPSH5TWn4sWJdow==
+  dependencies:
+    client-only "^0.0.1"
+
+"@heroicons/react@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@heroicons/react/-/react-2.1.1.tgz#422deb80c4d6caf3371aec6f4bee8361a354dc13"
+  integrity sha512-JyyN9Lo66kirbCMuMMRPtJxtKJoIsXKS569ebHGGRKbl8s4CtUfLnyKJxteA+vIKySocO4s1SkTkGS4xtG/yEA==
+
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.8.tgz#03595ac2075a4dc0f191cc2131de14fbd7d410b9"
@@ -1894,7 +1906,7 @@ chokidar@^3.5.3:
   optionalDependencies:
     fsevents "~2.3.2"
 
-client-only@0.0.1:
+client-only@0.0.1, client-only@^0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/client-only/-/client-only-0.0.1.tgz#38bba5d403c41ab150bff64a95c85013cf73bca1"
   integrity sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==
@@ -2508,6 +2520,11 @@ esutils@^2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
   integrity sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
+
+exenv@^1.2.0:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/exenv/-/exenv-1.2.2.tgz#2ae78e85d9894158670b03d47bec1f03bd91bb9d"
+  integrity sha512-Z+ktTxTwv9ILfgKCk32OX3n/doe+OcLTRtqK9pcL+JsP3J1/VW8Uvl4ZjLlKqeW4rzK4oesDOGMEMRIZqtP4Iw==
 
 extend@^3.0.0:
   version "3.0.2"
@@ -3160,7 +3177,7 @@ longest-streak@^3.0.0:
   resolved "https://registry.yarnpkg.com/longest-streak/-/longest-streak-3.1.0.tgz#62fa67cd958742a1574af9f39866364102d90cd4"
   integrity sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==
 
-loose-envify@^1.1.0, loose-envify@^1.4.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -4055,6 +4072,11 @@ react-is@^18.0.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
+react-lifecycles-compat@^3.0.0:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
+  integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
 react-markdown@^8.0.7:
   version "8.0.7"
   resolved "https://registry.yarnpkg.com/react-markdown/-/react-markdown-8.0.7.tgz#c8dbd1b9ba5f1c5e7e5f2a44de465a3caafdf89b"
@@ -4075,6 +4097,16 @@ react-markdown@^8.0.7:
     unified "^10.0.0"
     unist-util-visit "^4.0.0"
     vfile "^5.0.0"
+
+react-modal@^3.16.1:
+  version "3.16.1"
+  resolved "https://registry.yarnpkg.com/react-modal/-/react-modal-3.16.1.tgz#34018528fc206561b1a5467fc3beeaddafb39b2b"
+  integrity sha512-VStHgI3BVcGo7OXczvnJN7yT2TWHJPDXZWyI/a0ssFNhGZWsPmB8cF0z33ewDXq4VfYMO1vXgiv/g8Nj9NDyWg==
+  dependencies:
+    exenv "^1.2.0"
+    prop-types "^15.7.2"
+    react-lifecycles-compat "^3.0.0"
+    warning "^4.0.3"
 
 react@18.2.0, react@^18.2.0:
   version "18.2.0"
@@ -4738,6 +4770,13 @@ vfile@^5.0.0:
     is-buffer "^2.0.0"
     unist-util-stringify-position "^3.0.0"
     vfile-message "^3.0.0"
+
+warning@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
+  integrity sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==
+  dependencies:
+    loose-envify "^1.0.0"
 
 webpack-bundle-analyzer@4.7.0:
   version "4.7.0"
